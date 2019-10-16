@@ -22,11 +22,16 @@
         crossorigin="anonymous"></script>
 
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/blog-page.css">
     <title>Wesley's Blog</title>
 </head>
 <body>
-
+    <article class="container-fluid blogContainer gradient1">
+        <a href="#">
+            <h1>My Experience In A Coding Boot Camp</h1>
+            <h2>A detailed explanation of my experience attending Trilogy's Coding Boot Camp</h2>
+        </a>
+    </article>
     <script src="https://cdn.jsdelivr.net/npm/lax.js" ></script>    
     <script src="assets/javascript/game.js"></script>
 </body>

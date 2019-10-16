@@ -23,6 +23,7 @@
 
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/main-page.css">
     <title>Wesley's Portfolio</title>
 </head>
 
