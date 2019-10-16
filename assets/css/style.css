@@ -1,0 +1,785 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: center center;
+    background-color: #1F2614;
+}
+html { 
+    height: 100%;
+}
+.container {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 0;
+}
+p {
+    color: rgb(212, 212, 212);
+}
+a {
+    color: #588A0B !important;
+}
+th {
+    color: rgb(207, 207, 207);
+}
+td {
+    color: rgb(126, 126, 126);
+}
+h4,
+h5 {
+    text-align: center;
+    color: rgb(252, 252, 252);
+}
+ul {
+    color: rgb(212, 212, 212);
+    list-style-type: square;
+}
+li {
+    color: rgb(192, 192, 192);
+}
+button {
+    white-space: nowrap;
+}
+/* --------Outside the containers-------- */
+.social {
+    visibility: hidden;
+    display: none;
+    z-index:0;
+    position: fixed;
+    bottom: 0;
+    left:2vw;
+    width: 6vw;
+    height: 50vh;
+}
+.emailCont {
+    visibility: hidden;
+    display: none;
+    position: relative;
+    z-index: 0;
+}
+/* --------Landing Page---------- */
+.container1 {
+    height: 100vh;
+    width: auto;
+    position: relative;
+    background: url('../images/forest3.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: center center;
+    margin-right: 0;
+    margin-left: 0;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 34%;
+    justify-content: center;
+}
+.intro {
+    position: absolute;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titleH3 {
+    position: relative;
+    color: rgb(207, 207, 207);
+    margin-bottom: 2 vh;
+    font-size: 8vw;
+    background-color: #1F2614;
+    padding: 1%;
+    border-style: solid;
+    border-color:#1F2614;
+    border-radius: 6px;
+    border-width: 2px;
+}
+.titleName {
+    position: relative;
+    color: #588A0B;
+    font-size: 12vw;
+    margin-bottom: 2vh;
+    background-color: #1F2614;
+    padding: 1%;
+    border-style: solid;
+    border-color:#1F2614;
+    border-radius: 6px;
+    border-width: 2px;
+}
+.titleProfession {
+    position: relative;
+    color: rgb(126, 126, 126);
+    font-size: 10vw;
+    text-align: center;
+    background: #1F2614;
+    padding: 1%;
+    border-style: solid;
+    border-radius: 6px;
+    border-width: 2px;
+    border-color: #1F2614;
+}
+a.titleNav {
+    margin-top: 100px;
+}
+a:-webkit-any-link {
+    text-decoration: none;
+}
+.titleButton {
+    font-size: 5vw;
+    background-color: #1F2614;
+    color: #588A0B;
+    border-style: solid;
+    border-radius: 6px;
+    border-width: 4px;
+    border-color: #1F2614;
+    padding: 1% 2% 1% 2%;
+    transition: .4s;
+}
+.titleButton:hover {
+    background-color: #32590A !important;
+    border-color: #32590A !important;
+    color: white;
+    transition: .4s;
+    cursor: pointer;
+}
+.titleButton:visited
+.titleButton:active {
+    background-color: #2C3D11 !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+.titleButton:focus {
+    outline: none !important;
+}
+.btn:active, .btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: none !important;
+}
+.fa-arrow-down{
+    transform: rotate(270deg);
+}
+/* -------------About Me-------- */
+.container3,
+.container2 {
+    margin-right: 0;
+    margin-left: 0;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 7%;
+    width: auto;
+    background-color: #1F2614;
+    opacity: .98;
+}
+.container2 {
+    min-height: 100vh;
+}
+.forProfileImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-top: 5%;
+    border-radius: 6px;
+}
+.aboutMeHeader {
+    overflow: hidden;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.aboutMeHeader:before,
+.aboutMeHeader:after {
+    background-color: #7e7e7e;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+.aboutMeHeader:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+.aboutMeHeader:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+.skillsHeader {
+    text-align: left;
+    margin-left: 24px;
+}
+.aboutMeText {
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0px;
+    word-spacing: 4px;
+    font-size: 20px;
+    line-height: 1.4;
+}
+/* ------------Projects-------- */
+#myWork {
+    opacity: 1 !important;
+}
+.projects {
+    width: 100%;
+    height: 100%;
+}
+.rowEmblems {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.emblems {
+    font-size: 30px;
+}
+.anchorImage {
+    border-radius: 6px;
+}
+.textForGig {
+    border-radius: 6px;
+    font-size: 18px;
+    line-height: 1.4;
+}
+.descripText {
+    color: rgb(182, 182, 182);
+    text-align: center;
+}
+.techUsed {
+    text-align: center;
+}
+.techUsedText {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+.fab.fa-linkedin-in,
+.fab.fa-github,
+.fas.fa-eye {
+    color: rgb(207, 207, 207);
+    transition: .4s;
+    margin-bottom: 26px;
+}
+.fab.fa-linkedin-in:hover,
+.fab.fa-github:hover,
+.fas.fa-eye:hover {
+    color: #588A0B;
+    transition: .4s;
+}
+#myWork > div > div:nth-child(1) > div.col-xs-12.col-sm-12.col-md-12.col-lg-8.col-xl-8.order-lg-2.center2,
+#myWork > div > div:nth-child(3) > div.col-xs-12.col-sm-12.col-md-12.col-lg-8.col-xl-8.order-lg-2.center2 {
+    padding-right: 0;
+    padding-left: 15px;
+}
+.projectRow {
+    justify-content: center;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+/* -----------Contact-------- */
+.contactContainer {
+    height: 100vh;
+    width: 100%;
+    padding-right: 7%;
+    padding-left: 7%;
+    padding-top: 7%;
+    margin-right: 0;
+    margin-left: 0;
+    background-color: #1F2614;
+    opacity: .98;
+    margin-top: 50px;
+}
+.contactDiv {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.collaborate {
+    margin-top: 20vh;
+}
+.hello {
+    position: absolute;
+    margin-top: 40vh !important;
+}
+.helloButton {
+    font-size: 40px;
+    background: #32590A !important;
+    border-color: #32590A;
+    opacity: 1 !important;
+    color: rgb(207, 207, 207) !important;
+}
+.helloButton:hover {
+    background: #588A0B !important;
+    border-color: #588A0B !important;
+}
+/* ----------Footer------- */
+footer {
+    height: 23vh;
+    background: black;
+    padding-top: 7%;
+}
+.fab.fa-linkedin.foot,
+.fab.fa-github-square.foot{
+    margin-left: 40px;
+    transition: .4s;
+}
+.fab.fa-linkedin.foot:hover, 
+.fab.fa-github-square.foot:hover {
+    color: white;
+    transition: .4s;
+}
+.footerEmblems {
+    text-align: center;
+}
+.mr-3 {
+    margin-right: 0;
+}
+.footer-copyright {
+    color: rgb(207, 207, 207);
+}
+body > footer > div.row{
+    margin: 0 0 0 0;
+}
+/*Extra small devices (phones) */
+@media (min-width: 300px) {
+    /* ------------Projects---------- */
+    .container2 {
+        height: auto;
+    }
+    .row {
+        margin: 5% 0 0 0;
+    }
+    .gigBookImage {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        transition: .4s;
+    }
+    .anchorImage {
+        display:inline-block;
+        overflow: hidden;
+    }
+    .gigBookImage:hover {
+        transform: scale(1.1);
+        transition: .4s;
+    }
+    .textForGig {
+        background-color: hsl(0, 0%, 0%, .75);
+        padding: 2%;
+    }
+    .projectTitle {
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+    #myWork > div > div:nth-child(1) > div.col-xs-12.col-sm-12.col-md-12.col-lg-8.col-xl-8.order-lg-2.center2,
+    #myWork > div > div:nth-child(3) > div.col-xs-12.col-sm-12.col-md-12.col-lg-8.col-xl-8.order-lg-2.center2 {
+        padding-left: 0;
+    }
+    .center {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .center2 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    /* --------Landing Page---------- */
+    .container1 {
+        padding-left: 8%;
+        padding-right: 8%;
+        padding-top: 20%;
+    }
+    .intro {
+        width: 84%;
+    }
+    .titleH3 {
+        margin-bottom: 1.7vh;
+        font-size: 36px;
+    }
+    .titleName {
+        font-size: 74px;
+        margin-bottom: 2vh;
+    }
+    .titleProfession {
+        font-size: 50px;
+    }
+    .titleButton {
+        font-size: 22px;
+        padding: 1% 2% 1% 2%;
+    }
+    /* -----------About Me-------- */
+    .container3,
+    .container2 {
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+    .forProfileImg {
+        width: 60%;
+        margin-top: 5%;
+    }
+    .experience {
+        margin-top: 30px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .aboutMeHeader {
+        font-size: 40px;
+    }
+    /* ------------Projects---------- */
+    .gigBookImage {
+        height: auto;
+    }
+    .textForGig {
+        height: auto;
+    }
+    #myWork > div > div:nth-child(4) > div,
+    #myWork > div > div:nth-child(3) > div,
+    #myWork > div > div:nth-child(2) > div,
+    #myWork > div > div:nth-child(1) > div {
+        flex: 0 0 94%;
+        width: 100%;
+        left: 3%;
+    }
+    /* ------------Contact--------- */
+    .contactContainer {
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+    .hello {
+        position: absolute;
+        margin-top: 40vh !important;
+    }
+    .helloButton {
+        font-size: 50px;
+    }
+    /* ----------Footer------- */
+    .footer1 {
+        text-align: center;
+    }
+    .footerP,
+    .footerP2 {
+        font-size: 20px;
+    }
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .container1 {
+        padding-left: 12%;
+        padding-right: 12%;
+        padding-top: 25%;
+    }
+    .intro {
+        width: 76%;
+    }
+    .titleH3 {
+        margin-bottom: 2vh;
+        font-size: 36px;
+    }
+    .titleName {
+        font-size: 70px;
+        margin-bottom: 2vh;
+    }
+    .titleButton {
+        font-size: 24px;
+        padding: 1% 2% 1% 2%;
+    }
+    a.titleNav {
+        margin-top: 50px;
+    }
+    /* --------Outside the containers-------- */
+    .social {
+        display: block;
+        visibility: visible;
+        z-index:2;
+        position: fixed;
+        bottom: 0;
+        left:2vw;
+        width: auto;
+        height: 40vh;
+        background-color: transparent;
+    }
+    .row {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .fab.fa-github-square {
+        background-color: #1F2614 !important;
+        border-color:  #1F2614 !important;
+        color: rgb(207, 207, 207) !important;
+        border-style: solid;
+        border-radius: 4px;
+        border-width: 1px 4px;
+        transition: .4s;
+    }
+    .fab.fa-github-square:hover {
+        background-color: rgb(207, 207, 207) !important;
+        border-color: rgb(207, 207, 207) !important;
+        color: #2C3D11 !important;
+        transition: .4s;
+        cursor: pointer;
+    }
+    .fab.fa-linkedin {
+        background-color: #1F2614 !important;
+        border-color:  #1F2614 !important;
+        color: rgb(207, 207, 207) !important;
+        border-style: solid;
+        border-radius: 4px;
+        border-width: 1px 4px;
+        transition: .4s;
+    }
+    .fab.fa-linkedin:hover {
+        background-color: rgb(207, 207, 207) !important;
+        border-color: rgb(207, 207, 207) !important;
+        color: #1F2614 !important;
+        transition: .4s;
+        cursor: pointer;
+    }
+    .git {
+        font-size: 8vh;
+        position: relative;
+        width: 100%;
+        background-color: transparent;
+    }
+    a.gitA {
+        color: black;
+    }
+    a.linkedA {
+        color: black;
+    }
+    .linked {
+        font-size: 8vh;
+        top:0vh;
+        height: 7.2vh;
+        position: relative;
+        width: 100%;
+        background-color: transparent;
+    }
+    .emailCont {
+        display: block;
+        visibility: visible;
+        z-index:2;
+        position: fixed;
+        bottom: 0;
+        right:2vw;
+        width: auto;
+        height: 40vh;
+        background-color: transparent;
+    }
+    .emailA {
+        writing-mode: vertical-rl;
+        color: rgb(207, 207, 207) !important;
+        font-size: 1.2em;
+        transition: .4s;
+        transform: translate(0, 2px);
+    }
+    .emailCont2 {
+        background-color: #1F2614;
+        padding: 1%;
+        border-style: solid;
+        border-color:#1F2614;
+        border-radius: 6px;
+        border-width: 2px;
+    }
+    .emailA:hover {
+        color: #5D8C16 !important;
+        transition: .4s;
+        cursor: pointer;
+    }
+    /* -----------About Me-------- */
+    .container3,
+    .container2 {
+        padding-left: 12%;
+        padding-right: 12%;
+    }
+    .forProfileImg {
+        width: 180px;
+    }
+    .aboutMeText {
+        margin-top: 4px;
+    }
+    .experience {
+        margin-top: 30px;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 20px;
+    }
+    .aboutMeHeader {
+        font-size: 46px;
+    }
+    /* ------------Projects-------- */
+    .gigBookImage {
+        height: auto;
+    }
+    .textForGig {
+        height: auto;
+    }
+    #myWork > div > div:nth-child(4) > div,
+    #myWork > div > div:nth-child(3) > div,
+    #myWork > div > div:nth-child(2) > div,
+    #myWork > div > div:nth-child(1) > div {
+        flex: 0 0 95.5%;
+        left: 2.25%;
+    }
+    /* ------------Contact--------- */
+    .hello {
+        position: absolute;
+        margin-top: 40vh !important;
+    }
+    .helloButton {
+        font-size: 40px;
+    }
+    /* ----------Footer------- */
+    footer {
+        display: none;
+    }
+    .contactContainer {
+        padding-left: 12%;
+        padding-right: 12%;
+    }
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    /* --------Landing Page---------- */
+    .container1 {
+        padding-left: 12%;
+        padding-right: 12%;
+        padding-top: 15%;
+    }
+    /* -----------About Me-------- */
+    .container3,
+    .container2 {
+        padding-left: 12%;
+        padding-right: 12%;
+    }
+    .forProfileImg {
+        width: 240px;
+    }
+    .aboutMeText {
+        margin-top: 10px;
+    }
+    .experience {
+        margin-top: 40px;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    /* -------Projects----------- */
+    .gigBookImage {
+        height: auto;
+        max-height: 300px;
+    }
+    .textForGig {
+        height: auto;
+    }
+    #myWork > div > div:nth-child(4) > div,
+    #myWork > div > div:nth-child(3) > div,
+    #myWork > div > div:nth-child(2) > div,
+    #myWork > div > div:nth-child(1) > div {
+        flex: 0 0 100%;
+        left: 0;
+    }
+    #myWork > div > div:nth-child(4) > img,
+    #myWork > div > div:nth-child(3) > img,
+    #myWork > div > div:nth-child(2) > img,
+    #myWork > div > div:nth-child(1) > img {
+        padding-left: 0;
+    }
+    #myWork > div > div:nth-child(1) > div.col-xs-12.col-sm-12.col-md-12.col-lg-8.col-xl-8.order-lg-2.center2,
+    #myWork > div > div:nth-child(3) > div.col-xs-12.col-sm-12.col-md-12.col-lg-8.col-xl-8.order-lg-2.center2 {
+        padding-left: 15px;
+    }
+    #mixImage {
+        order: 2;
+        padding-right: 0;
+        left: 10px;
+        max-height: 300px;
+    }
+    #mixDescription {
+        order: 1;
+        flex-basis: 24.5% !important;
+    }
+    .center {
+        display: flex;
+        justify-content: center;
+        margin-top: auto;
+        margin-bottom: auto;
+        padding-right: 15px;
+        padding-left: 0;
+    }
+    .center2 {
+        padding-left: 15px;
+        padding-right: 0;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .container1 {
+        padding-left: 12%;
+        padding-right: 12%;
+        padding-top: 10%;
+    }
+    .intro {
+        width: 76%;
+    }
+    .titleH3 {
+        margin-bottom: 2vh;
+        font-size: 42px;
+    }
+    .titleName {
+        font-size: 76px;
+        margin-bottom: 2vh;
+    }
+    .titleProfession {
+        font-size: 56px;
+    }
+    .titleButton {
+        font-size: 28px;
+        padding: 1% 2% 1% 2%;
+    }
+    a.titleNav {
+        margin-top: 70px;
+    }
+    .aboutMeHeader {
+        font-size: 50px;
+        margin-bottom: 15px;
+    }
+    /* ------------Projects---------- */
+    .gigBookImage {
+        height: auto;
+        max-height: none;
+    }
+    .textForGig {
+        height: auto;
+    }
+    .workBookDiv,
+    .workLiriDiv {
+        margin-right: 7vw;
+    }
+    #mixImage {
+        padding-right: 0;
+        left: 0;
+        max-height: none;
+    }
+    #mixDescription {
+        order: 1;
+        flex-basis: 100% !important;
+    }
+    /* ------------Contact--------- */
+    .helloButton {
+        font-size: 50px;
+    }
+} 
