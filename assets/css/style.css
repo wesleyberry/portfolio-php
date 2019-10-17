@@ -456,6 +456,16 @@ body > footer > div.row{
         width: 100%;
         left: 3%;
     }
+    .smallAnchor {
+        height: 100%; 
+        width: 100%; 
+        text-align: center;
+    }
+    .smallImage {
+        max-height: 90%; 
+        width: 90%; 
+        object-fit: contain;
+    }
     /* ------------Contact--------- */
     .contactContainer {
         padding-left: 8%;
@@ -636,6 +646,9 @@ body > footer > div.row{
         flex: 0 0 95.5%;
         left: 2.25%;
     }
+    .smallImage {
+        width: 80%;
+    }
     /* ------------Contact--------- */
     .hello {
         position: absolute;
@@ -703,12 +716,6 @@ body > footer > div.row{
     #myWork > div > div:nth-child(3) > div.col-xs-12.col-sm-12.col-md-12.col-lg-8.col-xl-8.order-lg-2.center2 {
         padding-left: 15px;
     }
-    #mixImage {
-        order: 2;
-        padding-right: 0;
-        left: 10px;
-        max-height: 300px;
-    }
     #mixDescription {
         order: 1;
         flex-basis: 24.5% !important;
@@ -771,14 +778,15 @@ body > footer > div.row{
     .workLiriDiv {
         margin-right: 7vw;
     }
-    #mixImage {
-        padding-right: 0;
-        left: 0;
-        max-height: none;
-    }
     #mixDescription {
         order: 1;
         flex-basis: 100% !important;
+    }
+    .smallImage {
+        width: 60%; 
+    }
+    .bellaImage {
+        width: 75%;
     }
     /* ------------Contact--------- */
     .helloButton {

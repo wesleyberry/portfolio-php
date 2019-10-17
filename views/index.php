@@ -28,8 +28,7 @@
 </head>
 
 <body>
-    <?php
-    echo '<div class="container social">
+    <div class="container social">
             <div class="git">
                 <a class="gitA" href="https://github.com/wesleyberry" target="_blank">
                     <i class="fab fa-github-square"></i>
@@ -57,8 +56,8 @@
                     </button>
                 </a>
             </div>
-        </div>';
-        echo '<div class="container2" id="aboutMe">
+        </div>
+        <div class="container2" id="aboutMe">
             <h3 class="aboutMeHeader">About Me</h3>
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
@@ -97,8 +96,8 @@
                     </ul>
                 </div>
             </div>
-        </div>';
-        echo '<div class="container3 container-fluid" id="myWork">
+        </div>
+        <div class="container3 container-fluid" id="myWork">
             <h3 class="aboutMeHeader">Projects</h3>
             <div class="projects">
                 <!-- Inoz Brew and Chew -->
@@ -128,14 +127,40 @@
                         </div>
                     </div>
                 </div>
-                <!-- GigBook -->
+                <!-- BellaVida -->
                 <div class="row projectRow">
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 center">
-                        <a href="https://gigbook-p3.herokuapp.com/" target="_blank" class="anchorImage">  
-                            <img src="./assets/images/Gigbook-Icon.png" alt="GigBook Landing Page" class="gigBookImage">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 order-lg-2 center">
+                        <a href="https://bellavidabandb.com/" target="_blank" class="anchorImage smallAnchor">  
+                            <img src="./assets/images/BellaVida_1.png" alt="BellaVida" class="gigBookImage bellaImage">
                         </a>
                     </div>
-                    <div class="textForGig col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                    <div class="textForGig col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 order-lg-1">
+                        <h4 class="projectTitle">BellaVida Bed and Breakfast Company Website</h4>
+                        <p class="descripText">
+                        This client-commissioned application is the company website for BellaVida, the number one rated bed and breakfast on Trip Advisor for Wimberley.
+                        I worked as a full-stack developer on a small team to plan, develop, test, and deploy the website. Also, I  facilitated communication between the client and developers.
+                        </p>
+                        <p class="descripText">
+                            There is no public GitHub repository for this application as per request of the owner.
+                        </p>
+                        <div class="techUsed">
+                            <p class="techUsedText">PHP - HTML - CSS - JavaScript - WordPress</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- GigBook -->
+                <div class="row projectRow">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 order-lg-2  center">
+                        <a href="https://gigbook-p3.herokuapp.com/" 
+                            target="_blank" 
+                            class="anchorImage smallAnchor">  
+                            <img src="./assets/images/Gigbook-Icon.png" 
+                                alt="GigBook Landing Page" 
+                                class="gigBookImage smallImage"
+                            >
+                        </a>
+                    </div>
+                    <div class="textForGig col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 order-lg-1">
                         <h4 class="projectTitle">GigBook</h4>
                         <p class="descripText">GigBook is a full-stack web application that allows musicians and venues to connect on one,
                             easy-to-use hub.
@@ -154,33 +179,9 @@
                         </div>
                     </div>
                 </div>
-                <!-- MixologyMust -->
-                <div class="row projectRow">
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 order-lg-2 center">
-                        <a href="https://wesleyberry.github.io/Mixology-Must/" target="_blank" class="anchorImage">  
-                            <img src="./assets/images/MixologyMust_2.png" alt="MixologyMust Landing Page" class="gigBookImage" id="mixImage">
-                        </a>
-                    </div>
-                    <div class="textForGig col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 order-lg-1" id="mixDescription">
-                        <h4 class="projectTitle">MixologyMust</h4>
-                        <p class="descripText">MixologyMust is an application that helps individuals look for their perfect drink based off
-                            ingredients or the name of a cocktail.</p>
-                        <div class="row rowEmblems">
-                            <div class="col-12">
-                                <a href="https://github.com/wesleyberry/Group-Project-1.git" target="_blank"
-                                    class="emblems">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="techUsed">
-                            <p class="techUsedText">HTML/CSS - JavaScript - APIs(Google Maps & cocktailDB) - Moment.js</p>
-                        </div>
-                    </div>
-                </div>
             </div>
-        </div>';
-        echo '<div class="contactContainer container-fluid" id="contact">
+        </div>
+        <div class="contactContainer container-fluid" id="contact">
             <h3 class="aboutMeHeader">Contact</h3>
             <div class="contactDiv">
                 <h4 class="collaborate">Have a question or want to collaborate on a project?</h4>
@@ -190,8 +191,8 @@
                     </button>
                 </a>
             </div>
-        </div>';
-        echo '<footer class="page-footer font-small darken-3">
+        </div>
+        <footer class="page-footer font-small darken-3">
             <div class="row">
                 <div class="col-6 footerEmblems">
                     <a class="li-ic">
@@ -207,8 +208,7 @@
             </div>
             <div class="footer-copyright text-center py-3">Designed and Developed by Wesley Berry
             </div>
-        </footer>';
-    ?>
+        </footer>
     <script src="https://cdn.jsdelivr.net/npm/lax.js" ></script>    
     <script src="assets/javascript/game.js"></script>
 </body>
