@@ -6,8 +6,11 @@ switch ($request) {
     case '/' :
         require __DIR__ . '/views/index.php';
         break;
-    case '/blog' :
+    case '/blogs' :
         require __DIR__ . '/views/blog.php';
+        break;
+    case '/blogs/coding_boot_camp_experience' :
+        require __DIR__ . '/views/blogs/blog_1.php';
         break;
     default:
         require __DIR__ . '/views/index.php';

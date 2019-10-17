@@ -79,7 +79,8 @@
                 <div class="skills col-6">
                     <ul>
                         <li>JavaScript & jQuery</li>
-                        <li>HTML & Handlebars</li>
+                        <li>HTML</li>
+                        <li>Handlebars</li>
                         <li>CSS, Bootstrap & Foundation</li>
                         <li>React.js & Material-UI</li>
                         <li>Webpack and NPM</li>
@@ -92,6 +93,7 @@
                         <li>MongoDB & Mongoose</li>
                         <li>RESTful API</li>
                         <li>Git</li>
+                        <li>PHP</li>
                     </ul>
                 </div>
             </div>

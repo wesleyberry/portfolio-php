@@ -26,10 +26,10 @@
     <title>Wesley's Blog</title>
 </head>
 <body>
-    <article class="container-fluid blogContainer gradient1">
+    <article class="container-fluid blogContainer gradient1" style="background-image: url(../assets/images/gradient_1.jpg);">
         <a href="#">
             <h1>My Experience In A Coding Boot Camp</h1>
-            <h2>A detailed explanation of my experience attending Trilogy's Coding Boot Camp</h2>
+            <h2>A detailed recount of my experience attending Trilogy's Coding Boot Camp</h2>
         </a>
     </article>
     <script src="https://cdn.jsdelivr.net/npm/lax.js" ></script>    

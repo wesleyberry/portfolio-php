@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     height: 100vh;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -23,6 +23,7 @@ html {
 }
 p {
     color: rgb(212, 212, 212);
+    font-family: 'Roboto', sans-serif;
 }
 a {
     color: #588A0B !important;
@@ -44,9 +45,11 @@ ul {
 }
 li {
     color: rgb(192, 192, 192);
+    font-family: 'Roboto', sans-serif;
 }
 button {
     white-space: nowrap;
+    font-family: 'Roboto', sans-serif;
 }
 /* --------Outside the containers-------- */
 .social {
