@@ -42,7 +42,7 @@
             And the term <i>full-stack</i> implies that students learn how to build websites that use front-end and back-end technologies. I will explain in detail which languages, frameworks, and libraries we learned.
         </p>
         <!-- Average Day -->
-        <h2>What Does The Average Day Look Like?</h2>
+        <h2>What Did The Average Day Look Like?</h2>
         <p>The list belows outlines what an average weekday was like for me during the boot camp.</p>
         <ul>
             <li>
@@ -99,25 +99,121 @@
                 <strong>12:00 AM</strong> - Go to sleep.
             </li>
         </ul>
-        <p>As you can see, the boot camp consumed all of my time. As i mentioned before, this was a huge financial investment for me, and I was determined to make every minute count while I had access to these resources. 
+        <p>As you can see, the boot camp consumed all of my time. 
+        As i mentioned before, this was a huge financial investment for me, and I was determined to make every minute count while I had access to these resources. 
+        Not everyone's experience was the same, and what a student gets out of the program depends on what they put in.
         </p>
         <!-- Teaching Staff -->
-        <h2>Who Are The Teaching Staff?</h2>
-        <p>Pellentesque consectetur libero erat, ac pretium massa dapibus sed. Nam sodales tortor non vestibulum fringilla. Aliquam semper orci sit amet purus tincidunt tincidunt nec id urna. Mauris quis purus at ex posuere fringilla a ac sem. Donec tortor diam, porta in metus id, vulputate molestie quam. Nulla facilisi. Suspendisse bibendum dui suscipit, aliquam neque at, auctor leo. Aliquam erat volutpat. Integer efficitur lacus ante, in mollis felis pharetra et.</p>
+        <h2>Who Were The Teaching Staff?</h2>
+        <p>Each cohort has one instructor. The requirement to become a Trilogy Instructor is he or she must be an "industry professional". 
+        Instructors "deliver ... course curriculum, facilitate learning, and are responsible for ensuring an outstanding learning experience for the students in their class section."
+        You can find more about the position <a href="https://www.trilogyed.com/instructors/" target="_blank" style="font-size: 21; color: #588A0B; padding: 0px; width: auto; display: inline-block;">here.</a>
+        </p>
+        <p>Our cohort had five TAs. All of them were graduates of the Trilogy boot camp. 
+        From what I understand, being a TA is a decent way for graduates to gain experience before getting a job. All of our TAs were looking for jobs, and one of them actually got one halfway through the semester. </p>
         <!-- Tech Used -->
-        <h2>Which Technologies Do You Learn?</h2>
-        <p>Pellentesque consectetur libero erat, ac pretium massa dapibus sed. Nam sodales tortor non vestibulum fringilla. Aliquam semper orci sit amet purus tincidunt tincidunt nec id urna. Mauris quis purus at ex posuere fringilla a ac sem. Donec tortor diam, porta in metus id, vulputate molestie quam. Nulla facilisi. Suspendisse bibendum dui suscipit, aliquam neque at, auctor leo. Aliquam erat volutpat. Integer efficitur lacus ante, in mollis felis pharetra et.</p>
+        <h2>Which Technologies Did You Learn?</h2>
+        <p>We would typically spend 2-3 days learning each of these technologies. I will list them below in order in which we learned them with a small description of each.</p>
+        <ul>
+            <li><strong>HTML (HyperText Markup Language) </strong>- HTML is probably the most essential technology you can learn in order to be a web developer.
+            HTML is the content you see on a page, e.g., the paragraphs, headers, and images.</li>
+            <li><strong>CSS (Cascading Style Sheets) </strong>- CSS makes up the styling of a website. This includes the color of the background and text, how and where images are places, some animations, and more.</li>
+            <li><strong>JS (JavaScript) </strong>- JavaScript is a scripting language for web development. JavaScript is used for updating the DOM, animations, API calls, routing, and much more.</li>
+
+        </ul>
+        <p>I like to think of these three technologies as parts of a house. HTML is what makes up the house: the foundation, walls, doors, and windows. 
+        CSS is how you deisgn the house: the color of the walls, the type of furniture, and anything else aesthetic.
+        JS is what makes the house functional: the pipes for water, wiring for electricity, locks on the doors, and any other gadget.</p>
+        <ul>
+            <li><strong>Git </strong>- Git is a version-control system for tracking changes in source code. 
+            It is especially useful when working in groups. 
+            From my experience of collaborating <strong>without</strong> version control, which was an absolute nightmare,  
+            it allows you to track changes and handle problems, like merge conflicts.</li>
+            <li><strong>jQuery </strong>- jQuery is one of the most popular JavaScript libraries. It simplifies <i>how</i> the DOM is updated, API calls, and much more. </li>
+            <li><strong>AJAX (or API calls in general) </strong>- AJAX is specifically a jQuery method for making asynchronous HTTP requests. 
+            API calls in general are so important. 
+            Want to pull data from an API or database? 
+            Want to add information to a database? 
+            Change information in a database? 
+            You will use APIs so often in the industry and when designing your own applications.</li>
+            <li><strong>Firebase </strong>- Firebase is Google's mobile platform for development. We only learned about how to use Firebase's remote database. 
+            We learned about the CRUD actions within the scope of Firebase.
+            CRUD refers to the four basic actions you can do with a database: Create, Read, Update, and Delete.</li>
+            <li><strong>Node.js </strong>- Node is a runtime environment that executes JavaScript code outside of the browser. 
+            This is important when setting up the back-end of an application.
+            Some of the things you can do with Node are set up routes, run JS code, command line options, and so much more.</li>
+            <li><strong>MySQL </strong>- MySQL is an open-source relational database management system. Simply put it's a database. 
+            From my experience MySQL is the most popular database. 
+            Databases are especially important for persisting data. 
+            Want to be able to make changes to your website and have those changes persist? Want to store credentials? You will need a database.</li>
+            <li><strong>Express.js </strong>- Express if a Node web framework. 
+            It makes routing easy. 
+            It helps build the bridge that carries data between the client and the database. 
+            I use this for all of my full-stack applications.</li>
+            <li><strong>Handlebars.js </strong>- Probably the least used technology on this list, Handlebars takes HTML and compiles it into a JavaScript function. </li>
+            <li><strong>Sequelize </strong>- Sequelize is a promise-based ORM (object-relational mapping) for Node.js. I have found this to be a very useful tool because it helps manage database queries for multiple tables.</li>
+            <li><strong>MongoDB </strong>- Like MySQL, this is a database. Unlike MySQL, MongoDB is scalable and flexible.</li>
+            <li><strong>Mongoose </strong>- Mongoose is an ODM (object data modeling) library. It provides a model for data and is still flexible.</li>
+            <li><strong>React.js</strong>- React is Facebook's JavaScript Library. 
+            It will take everything you know about the HTML-CSS-JS architecture and flip it on its head. 
+            It is especially useful for changing data that needs to be recorded on the front end, reuse components, and much more.</li>
+            <li><strong>PHP (Personal Home Page or recursive for Hypertext Preprocessor) </strong>- PHP is a general-purpose scripting language. 
+            Like JavaScript, it can be used for both front-end and back-end applications. It's fast, open source, and easy to use.</li>
+            <li><strong>Laravel </strong>- Laravel is a PHP Framework. It speeds up the time it takes to solve common tasks.</li>
+            <li><strong>Computer Science Fundamentals </strong>- We spent some time learning big O, data types, different types of data searches and sorts.s</li>
+        </ul>
+        <p>We learned a lot of technologies during the boot camp. 
+        That being said, were any of us experts on all of these? 
+        Definitely not. I will share more of my opinions on this in the next blog post, but it should be obvious that the boot camp was a decent place to start in order to learn the basics of a lot of different technologies.</p>
         <!-- Projects Built -->
-        <h2>What Kind Of Projects Do You Build?</h2>
-        <p>In facilisis diam a nibh mattis, ut bibendum neque bibendum. Sed pharetra lectus dui, at porttitor tortor dignissim non. Aenean semper vitae eros sed consectetur. Phasellus at eleifend lorem, et rhoncus ligula. Fusce et tortor efficitur, aliquam odio non, consequat leo. Praesent venenatis ultrices molestie. Maecenas egestas volutpat tellus. Ut mollis est vitae pellentesque varius. Vivamus nec massa mollis, volutpat dui nec, viverra eros. Nunc porttitor justo a libero accumsan, ac fringilla arcu bibendum. Phasellus at mollis purus, in vulputate tellus. Phasellus vitae lacus eget tortor ornare accumsan. Pellentesque eleifend leo metus, vel aliquet dui dictum et. Maecenas ut congue risus, ac aliquet leo.</p>
+        <h2>What Kind Of Projects Did You Build?</h2>
+        <p>Each project was different, but we were assigned one for each of the technologies listed above. 
+        They started off simple: a portfolio page using just HTML and CSS, but we were eventually building full-stack applications with dynamic front-ends, routes, API calls, and databases.
+        Here are a few of the homeworks assignments I did:
+        </p>
+        <ul>
+            <li><strong>Hangman Game</strong> - In case you are unfamiliar with hangman, the player tries to guess letters that are in a word. If the guess is right a letter is shown on the screen, and if the guess is wrong the player loses a point.</li>
+            <li><strong>Giffy</strong> - This application makes calls to the Giphy API, retrieves this data and populates the screen with Gifs.</li>
+            <li><strong>Book Search</strong> - Like Giffy, this application makes calls to an API. This application also uses a database, so the user can search through the API, read a summary of a book, and even save the book for later.</li>
+        </ul>
+        <p>In addition to homeworks, there were also three groups projects. These were typically more complex, and we were given more autonomy on <i>what</i> we built. Here are two of my group projects:</p>
+        <ul>
+            <li><strong>MixologyMust</strong> - MixologyMust is a front-end application that helps the user find their favorite cocktail based off of their ingredients. 
+            Also, the user can enter the name of the drink and the application will show the user what ingredients are required and how to make it. 
+            Technologies used include: HTML - CSS - JS - jQuery - AJAX - Cocktail DB API - Google Maps API.
+            You can find the deployed site <a href="https://wesleyberry.github.io/Mixology-Must/" target="_blank" style="font-size: 21; color: #588A0B; padding: 0px; width: auto; display: inline-block;">here</a></li>
+            <li><strong>GigBook</strong> - GigBook is a full-stack web application that allows musicians and venues to connect on one, easy-to-use hub. 
+            Use the following test credentials to login: Username-sally, Password-1, Artist-Checked. 
+            Technologies used include: React.js - JS - HTML - CSS - Node.js/Express.js - Sequelize/MySQL - Passport - Bcrypt.
+            You can find the deployed site <a href="https://gigbook-p3.herokuapp.com/" target="_blank" style="font-size: 21; color: #588A0B; padding: 0px; width: auto; display: inline-block;">here</a></li>
+        </ul>
         <!-- Teaching Strategy -->
         <h2>What Were The Teaching Strategies Used By TAs And The Instructor?</h2>
-        <p></p>
+        <p>The instruction process for learning each module was the same.</p>
+        <ol>
+            <li>The instructor would introduce the topic conceptually. He would answer the question "What is ...?"</li>
+            <li>We would read the documentation on a technology.</li>
+            <li>The instructor would show us how to use it in our text editor or workbench.</li>
+            <li>Each student would be given a short assignment. We could work alone or in groups.</li>
+            <li>After about 15-20 minutes, the instructor would walk us through the exercise and show the answer.</li>
+        </ol>
+        <p>Typically the TAs would not teach, but they would occassionally host whiteboard questions during afternoon office hours.</p>
         <!-- Career Services -->
         <h2>Are There Career Services?</h2>
-        <p>Nam sit amet enim leo. Curabitur turpis purus, fermentum ut placerat at, cursus et risus. Sed convallis nibh non lectus hendrerit hendrerit. Donec quis cursus tellus, in lacinia sem. Sed et sem at est malesuada venenatis vel quis quam. Ut aliquet ex sit amet velit ullamcorper, ac venenatis felis porttitor. Aenean commodo a orci in facilisis. Vestibulum et faucibus velit. Nunc ac dui sit amet lorem eleifend dictum eget id sapien.</p>
+        <p>Each student had access to a profile coach, the career director, and a library of youtube videos you can find <a href="https://www.youtube.com/channel/UCKTSy3Jsa2zczjAptE7isyQ" target="_blank" style="font-size: 21; color: #588A0B; padding: 0px; width: auto; display: inline-block;">here</a>
+        A profile coach is someone who helps a student with his or her professional materials such as the content on a portfolio, resume, elevator pitch, cover letter, and more. Students can meet with their profile coach virtually for an hour at a time.
+        I am still unsure what exactly the career director did for me, but she would call me from time to time to ask how things were going during my job search.
+        </p>
         <!-- Costs -->
-        <h2>How Much Does It Cost?</h2>
+        <h2>How Much Did It Cost?</h2>
+        <p>I had two options. I could have paid multiple instalments for a total of $11,995, or I could have paid upfront for a total of $10,995. I chose the latter. Trilogy required a down payment of $3,000 to "reserve my seat" so-to-speak.</p>
+        <hr>
+        <p>Like i mentioned before, I wanted to create this blog post because I felt as thought I was going into this boot camp blindly. 
+        I wish I could have spoken with someone who had been through this situation, but unfortunately the resources were just not around at the time.
+        Coding boot camps are popping up all around the united states. So the next question to answer is "is it worth it?"
+        </p>
+        <br>
+        <h2 style="text-align: center; padding-bottom: 50px;"><i>Coming Soon:</i> Is A Coding Boot Camp Worth It? </h2>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/lax.js"></script> 
 </body>
