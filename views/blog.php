@@ -27,7 +27,7 @@
 </head>
 <body>
     <article class="container-fluid blogContainer gradient1" style="background-image: url(../assets/images/gradient_1.jpg);">
-        <a href="#">
+        <a href="/blogs/coding_boot_camp_experience">
             <h1>My Experience In A Coding Boot Camp</h1>
             <h2>A detailed recount of my experience attending Trilogy's Coding Boot Camp</h2>
         </a>
