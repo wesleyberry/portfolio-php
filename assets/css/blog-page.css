@@ -60,6 +60,18 @@ body > nav > a {
     font-size: 30px;
     font-weight: 700;
 }
+.contentLinks {
+    font-size: 21; 
+    color: #588A0B; 
+    padding: 0px; 
+    width: auto; 
+    display: inline-block;
+    transition: 0.4s;
+}
+.contentLinks:hover {
+    color: rgb(50, 80, 6);
+    transition: 0.4s;
+}
 @media (min-width: 992px) {
     .navbar-brand {
         padding-left: 80px;

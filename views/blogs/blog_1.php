@@ -2,6 +2,15 @@
 <html lang="en">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150353813-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-150353813-1');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <meta name="viewport" content="initial-scale=1.0">
@@ -109,7 +118,7 @@
         <h2>Who Were The Teaching Staff?</h2>
         <p>Each cohort has one instructor. The requirement to become a Trilogy Instructor is he or she must be an "industry professional". 
         Instructors "deliver ... course curriculum, facilitate learning, and are responsible for ensuring an outstanding learning experience for the students in their class section."
-        You can find more about the position <a href="https://www.trilogyed.com/instructors/" target="_blank" style="font-size: 21; color: #588A0B; padding: 0px; width: auto; display: inline-block;">here.</a>
+        You can find more about the position <a href="https://www.trilogyed.com/instructors/" target="_blank" class="contentLinks">on Trilogy's instructor page.</a>
         </p>
         <p>Our cohort had five TAs. All of them were graduates of the Trilogy boot camp. 
         From what I understand, being a TA is a decent way for graduates to gain experience before getting a job. All of our TAs were looking for jobs, and one of them actually got one halfway through the semester. </p>
@@ -183,11 +192,11 @@
             <li><strong>MixologyMust</strong> - MixologyMust is a front-end application that helps the user find their favorite cocktail based off of their ingredients. 
             Also, the user can enter the name of the drink and the application will show the user what ingredients are required and how to make it. 
             Technologies used include: HTML - CSS - JS - jQuery - AJAX - Cocktail DB API - Google Maps API.
-            You can find the deployed site <a href="https://wesleyberry.github.io/Mixology-Must/" target="_blank" style="font-size: 21; color: #588A0B; padding: 0px; width: auto; display: inline-block;">here</a></li>
+            You can find the <a href="https://wesleyberry.github.io/Mixology-Must/" target="_blank" class="contentLinks">deployed MixologyMust site here</a></li>
             <li><strong>GigBook</strong> - GigBook is a full-stack web application that allows musicians and venues to connect on one, easy-to-use hub. 
             Use the following test credentials to login: Username-sally, Password-1, Artist-Checked. 
             Technologies used include: React.js - JS - HTML - CSS - Node.js/Express.js - Sequelize/MySQL - Passport - Bcrypt.
-            You can find the deployed site <a href="https://gigbook-p3.herokuapp.com/" target="_blank" style="font-size: 21; color: #588A0B; padding: 0px; width: auto; display: inline-block;">here</a></li>
+            You can find the <a href="https://gigbook-p3.herokuapp.com/" target="_blank" class="contentLinks">deployed GigBook site here</a></li>
         </ul>
         <!-- Teaching Strategy -->
         <h2>What Were The Teaching Strategies Used By TAs And The Instructor?</h2>
@@ -202,7 +211,7 @@
         <p>Typically the TAs would not teach, but they would occassionally host whiteboard questions during afternoon office hours.</p>
         <!-- Career Services -->
         <h2>Are There Career Services?</h2>
-        <p>Each student had access to a profile coach, the career director, and a library of youtube videos you can find <a href="https://www.youtube.com/channel/UCKTSy3Jsa2zczjAptE7isyQ" target="_blank" style="font-size: 21; color: #588A0B; padding: 0px; width: auto; display: inline-block;">here</a>
+        <p>Each student had access to a profile coach, the career director, and a library of youtube videos you can find <a href="https://www.youtube.com/channel/UCKTSy3Jsa2zczjAptE7isyQ" target="_blank" class="contentLinks">here</a>
         A profile coach is someone who helps a student with his or her professional materials such as the content on a portfolio, resume, elevator pitch, cover letter, and more. Students can meet with their profile coach virtually for an hour at a time.
         I am still unsure what exactly the career director did for me, but she would call me from time to time to ask how things were going during my job search.
         </p>
@@ -214,6 +223,12 @@
         I wish I could have spoken with someone who had been through this situation, but unfortunately the resources were just not around at the time.
         Coding boot camps are popping up all around the united states. So the next question to answer is "is it worth it?"
         </p>
+        <p>Here are some more links to help:</p>
+        <ul>
+            <li><a href="https://www.trilogyed.com/programs/" target="_blank" class="contentLinks">Trilogy Education Services - Programs Page</a></li>
+            <li><a href="https://techbootcamps.utexas.edu/" target="_blank" class="contentLinks">University of Texas at Austin's Tech Boot Camps</a></li>
+            <li><a href="https://techbootcamps.utexas.edu/coding/" target="_blank" class="contentLinks">The specific boot camp I chose</a></li>
+        </ul>
         <br>
         <h2 style="text-align: center; padding-bottom: 50px;"><i>Coming Soon:</i> Is A Coding Boot Camp Worth It? </h2>
     </div>
