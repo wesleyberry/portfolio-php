@@ -34,11 +34,6 @@ th {
 td {
     color: rgb(126, 126, 126);
 }
-h4,
-h5 {
-    text-align: center;
-    background-color: rgb(252, 252, 252);
-}
 ul {
     color: rgb(212, 212, 212);
     list-style-type: square;
@@ -309,6 +304,8 @@ a:-webkit-any-link {
 }
 .collaborate {
     margin-top: 20vh;
+    color: rgb(248, 248, 248);
+    font-size: 40px;
 }
 .hello {
     position: absolute;
@@ -383,6 +380,8 @@ body > footer > div.row{
     .projectTitle {
         margin-bottom: 20px;
         font-size: 30px;
+        color: rgb(253, 253, 253);
+        text-align: center;
     }
     #myWork > div > div:nth-child(1) > div.col-xs-12.col-sm-12.col-md-12.col-lg-8.col-xl-8.order-lg-2.center2,
     #myWork > div > div:nth-child(3) > div.col-xs-12.col-sm-12.col-md-12.col-lg-8.col-xl-8.order-lg-2.center2 {

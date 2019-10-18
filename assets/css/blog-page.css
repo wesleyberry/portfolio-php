@@ -21,6 +21,11 @@ hr {
 h1 {
     padding-bottom: 50px;
 }
+h4,
+h5 {
+    text-align: center;
+    background-color: rgb(252, 252, 252);
+}
 body > div > h2 {
     font-weight: 700;
     font-size: 34px;
@@ -36,6 +41,33 @@ p {
 li {
     line-height: 1.8;
     font-size: 21px;
+}
+/* --------Navbar---------------- */
+body > nav > a {
+    color: #5D8C16 !important;
+}
+.nav-link {
+    color: #2C3D11 !important;
+    transition: 0.4s;
+    font-size: 22px;
+    font-weight: 500;
+}
+.nav-link:hover {
+    color: #5D8C16 !important;
+    transition: 0.4s;
+}
+.navbar-brand {
+    font-size: 30px;
+    font-weight: 700;
+}
+@media (min-width: 992px) {
+    .navbar-brand {
+        padding-left: 80px;
+        margin: 0;
+    }
+    .nav-item {
+        padding-right: 80px
+    }
 }
 .gradient1 {
     text-align: center;
