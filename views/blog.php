@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width">
     <meta name="viewport" content="initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Check out my blog where I share what I have struggled with and learned as a coder. Includes code academy, freelance work, and other web development.">
+    <meta name="keywords" content="code, freelancer, programming, code academy, web developer, freelance web developer">
     <script src="https://unpkg.com/scrollreveal"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"

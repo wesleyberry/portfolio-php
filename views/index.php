@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width">
     <meta name="viewport" content="initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="My name is Wesley Berry, and I am the owner and operator of Berry Development. Check out my portfolio where I share the websites I have created for clients.">
+    <meta name="keywords" content="code, freelancer, portfolio, berry development, programming, web developer, freelance web developer">
     <script src="https://unpkg.com/scrollreveal"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"

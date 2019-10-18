@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width">
     <meta name="viewport" content="initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Interested in a coding boot camp? This article is about my experience in Trilogy's code academy. I write about the coding classes, instructors, costs, and more.">
+    <meta name="keywords" content="code, learn to code, code academy, coding classes, school code, codeacademy">
     <script src="https://unpkg.com/scrollreveal"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
@@ -23,7 +25,7 @@
 
     <link rel="stylesheet" type="text/css" href="../assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="../assets/css/blog-page.css">
-    <title>Wesley's Blog</title>
+    <title>Wesley's Recount of the Code Academy / Coding Boot Camp</title>
 </head>
 <body>
     <article class="container-fluid blogContainer gradient1" style="background-image: url(../../assets/images/gradient_1.jpg);">
@@ -34,7 +36,7 @@
         <h2></h2>
         <!-- Intro -->
         <p style="padding: 40px 0 0 0;">
-            Want to know what it's like to attend a coding boot camp? I wrote this article to answer the questions I wish were answered for me before I even applied.
+            Want to know what it's like to attend a code academy / boot camp? I wrote this article to answer the questions I wish were answered for me before I even applied.
         </p>
         <p>
             I want to keep the article as objective and fact-filled as possible. In another post I will give my personal opinion on specifics such as the worth of the program and whether or not it can compete with a <strong>college education</strong> or being <strong>self-taught</strong>.
@@ -42,8 +44,8 @@
             And the term <i>full-stack</i> implies that students learn how to build websites that use front-end and back-end technologies. I will explain in detail which languages, frameworks, and libraries we learned.
         </p>
         <!-- Average Day -->
-        <h2>What Did The Average Day Look Like?</h2>
-        <p>The list belows outlines what an average weekday was like for me during the boot camp.</p>
+        <h2>What Did The Average Day Look Like At The Code Academy?</h2>
+        <p>The list belows outlines what an average weekday was like for me during the code academy.</p>
         <ul>
             <li>
                 <strong>7:30 AM</strong> - Wake up and do morning routine, e.g., eat, get dressed, etc...
@@ -162,9 +164,9 @@
             <li><strong>Laravel </strong>- Laravel is a PHP Framework. It speeds up the time it takes to solve common tasks.</li>
             <li><strong>Computer Science Fundamentals </strong>- We spent some time learning big O, data types, different types of data searches and sorts.s</li>
         </ul>
-        <p>We learned a lot of technologies during the boot camp. 
+        <p>We learned a lot of technologies during the code academy. 
         That being said, were any of us experts on all of these? 
-        Definitely not. I will share more of my opinions on this in the next blog post, but it should be obvious that the boot camp was a decent place to start in order to learn the basics of a lot of different technologies.</p>
+        Definitely not. I will share more of my opinions on this in the next blog post, but it should be obvious that the coding boot camp was a decent place to start in order to learn the basics of a lot of different technologies.</p>
         <!-- Projects Built -->
         <h2>What Kind Of Projects Did You Build?</h2>
         <p>Each project was different, but we were assigned one for each of the technologies listed above. 
@@ -205,10 +207,10 @@
         I am still unsure what exactly the career director did for me, but she would call me from time to time to ask how things were going during my job search.
         </p>
         <!-- Costs -->
-        <h2>How Much Did It Cost?</h2>
+        <h2>How Much Did The Code Academy Cost?</h2>
         <p>I had two options. I could have paid multiple instalments for a total of $11,995, or I could have paid upfront for a total of $10,995. I chose the latter. Trilogy required a down payment of $3,000 to "reserve my seat" so-to-speak.</p>
         <hr>
-        <p>Like i mentioned before, I wanted to create this blog post because I felt as thought I was going into this boot camp blindly. 
+        <p>Like i mentioned before, I wanted to create this blog post because I felt as thought I was going into this code academy blindly. 
         I wish I could have spoken with someone who had been through this situation, but unfortunately the resources were just not around at the time.
         Coding boot camps are popping up all around the united states. So the next question to answer is "is it worth it?"
         </p>
