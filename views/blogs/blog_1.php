@@ -132,9 +132,10 @@
             <li><strong>JS (JavaScript) </strong>- JavaScript is a scripting language for web development. JavaScript is used for updating the DOM, animations, API calls, routing, and much more.</li>
 
         </ul>
-        <p>I like to think of these three technologies as parts of a house. HTML is what makes up the house: the foundation, walls, doors, and windows. 
-        CSS is how you deisgn the house: the color of the walls, the type of furniture, and anything else aesthetic.
-        JS is what makes the house functional: the pipes for water, wiring for electricity, locks on the doors, and any other gadget.</p>
+        <img src="../../assets/images/house_analogy.jpg" style="width: 80%; height: auto; cover: contain; margin: 50px auto 50px auto; display: block;" alt="HTML CSS JS">
+        <p><i>I like to think of these three technologies as parts of a house. HTML is what makes up the house: the foundation and frame. 
+        CSS is how you design the house: the color of the walls, the style of the materials, and anything else aesthetic.
+        JS is what makes the house functional: the pipes for water, wiring for electricity, locks on the doors, and any other gadget.</i></p>
         <ul>
             <li><strong>Git </strong>- Git is a version-control system for tracking changes in source code. 
             It is especially useful when working in groups. 
@@ -173,6 +174,7 @@
             <li><strong>Laravel </strong>- Laravel is a PHP Framework. It speeds up the time it takes to solve common tasks.</li>
             <li><strong>Computer Science Fundamentals </strong>- We spent some time learning big O, data types, different types of data searches and sorts.s</li>
         </ul>
+        <img src="../../assets/images/MERN-Stack.jpg" style="width: 80%; height: auto; cover: contain; margin: 50px auto 50px auto; display: block;" alt="HTML CSS JS">
         <p>We learned a lot of technologies during the code academy. 
         That being said, were any of us experts on all of these? 
         Definitely not. I will share more of my opinions on this in the next blog post, but it should be obvious that the coding boot camp was a decent place to start in order to learn the basics of a lot of different technologies.</p>
@@ -180,14 +182,14 @@
         <h2>What Kind Of Projects Did You Build?</h2>
         <p>Each project was different, but we were assigned one for each of the technologies listed above. 
         They started off simple: a portfolio page using just HTML and CSS, but we were eventually building full-stack applications with dynamic front-ends, routes, API calls, and databases.
-        Here are a few of the homeworks assignments I did:
+        Here are a few of the homework assignments I did:
         </p>
         <ul>
             <li><strong>Hangman Game</strong> - In case you are unfamiliar with hangman, the player tries to guess letters that are in a word. If the guess is right a letter is shown on the screen, and if the guess is wrong the player loses a point.</li>
             <li><strong>Giffy</strong> - This application makes calls to the Giphy API, retrieves this data and populates the screen with Gifs.</li>
-            <li><strong>Book Search</strong> - Like Giffy, this application makes calls to an API. This application also uses a database, so the user can search through the API, read a summary of a book, and even save the book for later.</li>
+            <li><strong>Book Search</strong> - Like Giffy, this application makes calls to an API. This application also uses a database, so the user can search through the API, read a summary of the book, and even save the book for later.</li>
         </ul>
-        <p>In addition to homeworks, there were also three groups projects. These were typically more complex, and we were given more autonomy on <i>what</i> we built. Here are two of my group projects:</p>
+        <p>In addition to homework, there were also three groups projects. These were typically more complex, and we were given more autonomy on <i>what</i> we built. Here are two of my group projects:</p>
         <ul>
             <li><strong>MixologyMust</strong> - MixologyMust is a front-end application that helps the user find their favorite cocktail based off of their ingredients. 
             Also, the user can enter the name of the drink and the application will show the user what ingredients are required and how to make it. 
@@ -198,6 +200,7 @@
             Technologies used include: React.js - JS - HTML - CSS - Node.js/Express.js - Sequelize/MySQL - Passport - Bcrypt.
             You can find the <a href="https://gigbook-p3.herokuapp.com/" target="_blank" class="contentLinks">deployed GigBook site here</a></li>
         </ul>
+        <img src="../../assets/images/gigbook_landing.jpg" style="width: 80%; height: auto; cover: contain; margin: 50px auto 50px auto; display: block;" alt="HTML CSS JS">
         <!-- Teaching Strategy -->
         <h2>What Were The Teaching Strategies Used By TAs And The Instructor?</h2>
         <p>The instruction process for learning each module was the same.</p>

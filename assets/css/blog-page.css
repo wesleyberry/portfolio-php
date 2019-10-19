@@ -36,7 +36,7 @@ p {
     line-height: 1.4;
     font-family: 'Roboto', sans-serif;
     padding: 30px 0 30px 0;
-    color: rgb(15, 15, 15);
+    color: #2b2b2b;
 }
 li {
     line-height: 1.8;
@@ -45,6 +45,9 @@ li {
 /* --------Navbar---------------- */
 body > nav > a {
     color: #5D8C16 !important;
+}
+body > nav > a {
+    width: auto;
 }
 .nav-link {
     color: #2C3D11 !important;
