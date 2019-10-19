@@ -77,10 +77,10 @@
                 We could choose to work alone or with partners. 
                 After about 15 minutes of discussion, the instructor would ask someone to share their answer and move on with class.
                 <br>
-                What we did after the warm up depended on whether it was an <i>instruction week</i> or a <i>project week</i>. 
+                What we did after the warm-up depended on whether it was an <i>instruction week</i> or a <i>project week</i>. 
                 If it was an instruction week, the instructor would lecture about technology. 
                 I will get into the details later down the page.
-                If it was a project week, we would put our tables together with our group members. 
+                If it was a project week, we would put our tables together with our group members and work on our project. 
                 TAs would float around the class and answer questions or sometimes sit in the back and play fortnite.
             </li>
             <li>
@@ -94,7 +94,7 @@
             <li>
                 <strong>2:30 PM</strong> - End of class and beginning of afternoon office hours. 
                 Most people would leave at this time, but some of us would stick around to work on homework or get help from TAs.
-                Sometimes a TA would offer to help us with some whiteboard questions.
+                Sometimes a TA would offer to help us by hosting whiteboard questions.
             </li>
             <li>
                 <strong>3:00 PM</strong> - Leave campus. 
@@ -104,7 +104,8 @@
                 I would work from home, go to a coffee shop, or meet up with classnames.
             </li>
             <li>
-                <strong>10:00 PM</strong> - Stop working on code and i don't know, try to actually live a life? This time would change depending on the difficult and length of the current assignment, but I tried to always have my laptop put away by 11:00 PM.
+                <strong>10:00 PM</strong> - Stop working on code and i don't know, try to actually live a life? 
+                This time would change depending on the difficulty and length of the current assignment, but I tried to always have my laptop put away by 11:00 PM.
             </li>
             <li>
                 <strong>12:00 AM</strong> - Go to sleep.
@@ -124,7 +125,7 @@
         From what I understand, being a TA is a decent way for graduates to gain experience before getting a job. All of our TAs were looking for jobs, and one of them actually got one halfway through the semester. </p>
         <!-- Tech Used -->
         <h2>Which Technologies Did You Learn?</h2>
-        <p>We would typically spend 2-3 days learning each of these technologies. I will list them below in order in which we learned them with a small description of each.</p>
+        <p>We would typically spend 2-3 days learning each of these technologies. I will list them below in the order in which we learned them with a small description of each.</p>
         <ul>
             <li><strong>HTML (HyperText Markup Language) </strong>- HTML is probably the most essential technology you can learn in order to be a web developer.
             HTML is the content you see on a page, e.g., the paragraphs, headers, and images.</li>
@@ -153,12 +154,12 @@
             CRUD refers to the four basic actions you can do with a database: Create, Read, Update, and Delete.</li>
             <li><strong>Node.js </strong>- Node is a runtime environment that executes JavaScript code outside of the browser. 
             This is important when setting up the back-end of an application.
-            Some of the things you can do with Node are set up routes, run JS code, command line options, and so much more.</li>
+            Some of the things you can do with Node are set up routes, run JS code, and so much more.</li>
             <li><strong>MySQL </strong>- MySQL is an open-source relational database management system. Simply put it's a database. 
             From my experience MySQL is the most popular database. 
             Databases are especially important for persisting data. 
             Want to be able to make changes to your website and have those changes persist? Want to store credentials? You will need a database.</li>
-            <li><strong>Express.js </strong>- Express if a Node web framework. 
+            <li><strong>Express.js </strong>- Express is a Node web framework. 
             It makes routing easy. 
             It helps build the bridge that carries data between the client and the database. 
             I use this for all of my full-stack applications.</li>
@@ -172,9 +173,10 @@
             <li><strong>PHP (Personal Home Page or recursive for Hypertext Preprocessor) </strong>- PHP is a general-purpose scripting language. 
             Like JavaScript, it can be used for both front-end and back-end applications. It's fast, open source, and easy to use.</li>
             <li><strong>Laravel </strong>- Laravel is a PHP Framework. It speeds up the time it takes to solve common tasks.</li>
-            <li><strong>Computer Science Fundamentals </strong>- We spent some time learning big O, data types, different types of data searches and sorts.s</li>
+            <li><strong>Computer Science Fundamentals </strong>- We spent some time learning big O, data types, different types of data searches and sorts.</li>
         </ul>
-        <img src="../../assets/images/MERN-Stack.jpg" style="width: 80%; height: auto; cover: contain; margin: 50px auto 50px auto; display: block;" alt="HTML CSS JS">
+        <img src="../../assets/images/MERN-Stack.jpg" style="width: 80%; height: auto; cover: contain; margin: 50px auto 50px auto; display: block;" alt="MERN Stack">
+        <p>A couple that were not listed above are <a href="https://github.comstructors/" target="_blank" class="contentLinks">GitHub</a> and <a href="https://www.heroku.com/" target="_blank" class="contentLinks">Heroku.</a> In short GitHub is a software development platform with a large community. Heroku is primarily used for deploying full-stack applications.</p>
         <p>We learned a lot of technologies during the code academy. 
         That being said, were any of us experts on all of these? 
         Definitely not. I will share more of my opinions on this in the next blog post, but it should be obvious that the coding boot camp was a decent place to start in order to learn the basics of a lot of different technologies.</p>
@@ -200,13 +202,13 @@
             Technologies used include: React.js - JS - HTML - CSS - Node.js/Express.js - Sequelize/MySQL - Passport - Bcrypt.
             You can find the <a href="https://gigbook-p3.herokuapp.com/" target="_blank" class="contentLinks">deployed GigBook site here</a></li>
         </ul>
-        <img src="../../assets/images/gigbook_landing.jpg" style="width: 80%; height: auto; cover: contain; margin: 50px auto 50px auto; display: block;" alt="HTML CSS JS">
+        <img src="../../assets/images/gigbook_landing.jpg" style="width: 80%; height: auto; cover: contain; margin: 50px auto 50px auto; display: block;" alt="GigBook Landing Page">
         <!-- Teaching Strategy -->
         <h2>What Were The Teaching Strategies Used By TAs And The Instructor?</h2>
         <p>The instruction process for learning each module was the same.</p>
         <ol>
-            <li>The instructor would introduce the topic conceptually. He would answer the question "What is ...?"</li>
-            <li>We would read the documentation on a technology.</li>
+            <li>The instructor would introduce the topic conceptually. He would answer the question "What is this technology?"</li>
+            <li>We would read the documentation on the technology.</li>
             <li>The instructor would show us how to use it in our text editor or workbench.</li>
             <li>Each student would be given a short assignment. We could work alone or in groups.</li>
             <li>After about 15-20 minutes, the instructor would walk us through the exercise and show the answer.</li>
@@ -214,13 +216,13 @@
         <p>Typically the TAs would not teach, but they would occassionally host whiteboard questions during afternoon office hours.</p>
         <!-- Career Services -->
         <h2>Are There Career Services?</h2>
-        <p>Each student had access to a profile coach, the career director, and a library of youtube videos you can find <a href="https://www.youtube.com/channel/UCKTSy3Jsa2zczjAptE7isyQ" target="_blank" class="contentLinks">here</a>
+        <p>Each student had access to a profile coach, the career director, and a library of youtube videos you can find <a href="https://www.youtube.com/channel/UCKTSy3Jsa2zczjAptE7isyQ" target="_blank" class="contentLinks">here.</a>
         A profile coach is someone who helps a student with his or her professional materials such as the content on a portfolio, resume, elevator pitch, cover letter, and more. Students can meet with their profile coach virtually for an hour at a time.
         I am still unsure what exactly the career director did for me, but she would call me from time to time to ask how things were going during my job search.
         </p>
         <!-- Costs -->
         <h2>How Much Did The Code Academy Cost?</h2>
-        <p>I had two options. I could have paid multiple instalments for a total of $11,995, or I could have paid upfront for a total of $10,995. I chose the latter. Trilogy required a down payment of $3,000 to "reserve my seat" so-to-speak.</p>
+        <p>I had two options. I could have paid multiple installments for a total of $11,995, or I could have paid upfront for a total of $10,995. I chose the latter. Trilogy required a down payment of $3,000 to "reserve my seat" so-to-speak.</p>
         <hr>
         <p>Like i mentioned before, I wanted to create this blog post because I felt as thought I was going into this code academy blindly. 
         I wish I could have spoken with someone who had been through this situation, but unfortunately the resources were just not around at the time.
