@@ -37,19 +37,20 @@
     <title>Wesley's Recount of the Code Academy / Coding Boot Camp</title>
 </head>
 <body>
-    <article class="container-fluid blogContainer gradient1" style="background-image: url(../../assets/images/gradient_1.jpg);">
+<?php
+    echo '<article class="container-fluid blogContainer gradient1" style="background-image: url(../../assets/images/gradient_1.jpg);">
         <h1 style="color: white;">My Experience In A Coding Boot Camp</h1>
-        <h2 style="color: white;">A detailed recount of my experience attending Trilogy's Coding Boot Camp</h2>
+        <h2 style="color: white;">A detailed recount of my experience attending Trilogy\'s Coding Boot Camp</h2>
     </article>
     <div class="container">
         <h2></h2>
         <!-- Intro -->
         <p style="padding: 40px 0 0 0;">
-            Want to know what it's like to attend a code academy / boot camp? I wrote this article to answer the questions I wish were answered for me before I even applied.
+            Want to know what it\'s like to attend a code academy / boot camp? I wrote this article to answer the questions I wish were answered for me before I even applied.
         </p>
         <p>
             I want to keep the article as objective and fact-filled as possible. In another post I will give my personal opinion on specifics such as the worth of the program and whether or not it can compete with a <strong>college education</strong> or being <strong>self-taught</strong>.
-            I attended <strong>Trilogy's Full-Time, Full-Stack Coding Boot Camp</strong> between February of 2019 and May of 2019. What I mean by <i>full-time</i> is that in order to get the most out of the program, it was expected that each student spend at least 40 hours outside of class working on homework, group projects, or studying. Looking back, I think this number was completely arbitrary and depends on how you learn and how much you already know.
+            I attended <strong>Trilogy\'s Full-Time, Full-Stack Coding Boot Camp</strong> between February of 2019 and May of 2019. What I mean by <i>full-time</i> is that in order to get the most out of the program, it was expected that each student spend at least 40 hours outside of class working on homework, group projects, or studying. Looking back, I think this number was completely arbitrary and depends on how you learn and how much you already know.
             And the term <i>full-stack</i> implies that students learn how to build websites that use front-end and back-end technologies. I will explain in detail which languages, frameworks, and libraries we learned.
         </p>
         <!-- Average Day -->
@@ -64,7 +65,7 @@
             </li>
             <li>
                 <strong>8:45 AM</strong> - Show up to class. 
-                Classes were held at the University of Texas' Thompson Conference Center. 
+                Classes were held at the University of Texas\' Thompson Conference Center. 
                 I would show up early to catch up on studies or homework and to break up study blocks. I took to heart the 40 hours of work expectation because of the financial and time investment I was making. 
                 That being said, I would have been burnt out early on if I did not divide my study time into digestible blocks.
             </li>
@@ -104,7 +105,7 @@
                 I would work from home, go to a coffee shop, or meet up with classnames.
             </li>
             <li>
-                <strong>10:00 PM</strong> - Stop working on code and i don't know, try to actually live a life? 
+                <strong>10:00 PM</strong> - Stop working on code and i don\'t know, try to actually live a life? 
                 This time would change depending on the difficulty and length of the current assignment, but I tried to always have my laptop put away by 11:00 PM.
             </li>
             <li>
@@ -113,13 +114,13 @@
         </ul>
         <p>As you can see, the boot camp consumed all of my time. 
         As i mentioned before, this was a huge financial investment for me, and I was determined to make every minute count while I had access to these resources. 
-        Not everyone's experience was the same, and what a student gets out of the program depends on what they put in.
+        Not everyone\'s experience was the same, and what a student gets out of the program depends on what they put in.
         </p>
         <!-- Teaching Staff -->
         <h2>Who Were The Teaching Staff?</h2>
         <p>Each cohort has one instructor. The requirement to become a Trilogy Instructor is he or she must be an "industry professional". 
         Instructors "deliver ... course curriculum, facilitate learning, and are responsible for ensuring an outstanding learning experience for the students in their class section."
-        You can find more about the position <a href="https://www.trilogyed.com/instructors/" target="_blank" class="contentLinks">on Trilogy's instructor page.</a>
+        You can find more about the position <a href="https://www.trilogyed.com/instructors/" target="_blank" class="contentLinks">on Trilogy\'s instructor page.</a>
         </p>
         <p>Our cohort had five TAs. All of them were graduates of the Trilogy boot camp. 
         From what I understand, being a TA is a decent way for graduates to gain experience before getting a job. All of our TAs were looking for jobs, and one of them actually got one halfway through the semester. </p>
@@ -149,13 +150,13 @@
             Want to add information to a database? 
             Change information in a database? 
             You will use APIs so often in the industry and when designing your own applications.</li>
-            <li><strong>Firebase </strong>- Firebase is Google's mobile platform for development. We only learned about how to use Firebase's remote database. 
+            <li><strong>Firebase </strong>- Firebase is Google\'s mobile platform for development. We only learned about how to use Firebase\'s remote database. 
             We learned about the CRUD actions within the scope of Firebase.
             CRUD refers to the four basic actions you can do with a database: Create, Read, Update, and Delete.</li>
             <li><strong>Node.js </strong>- Node is a runtime environment that executes JavaScript code outside of the browser. 
             This is important when setting up the back-end of an application.
             Some of the things you can do with Node are set up routes, run JS code, and so much more.</li>
-            <li><strong>MySQL </strong>- MySQL is an open-source relational database management system. Simply put it's a database. 
+            <li><strong>MySQL </strong>- MySQL is an open-source relational database management system. Simply put it\'s a database. 
             From my experience MySQL is the most popular database. 
             Databases are especially important for persisting data. 
             Want to be able to make changes to your website and have those changes persist? Want to store credentials? You will need a database.</li>
@@ -167,11 +168,11 @@
             <li><strong>Sequelize </strong>- Sequelize is a promise-based ORM (object-relational mapping) for Node.js. I have found this to be a very useful tool because it helps manage database queries for multiple tables.</li>
             <li><strong>MongoDB </strong>- Like MySQL, this is a database. Unlike MySQL, MongoDB is scalable and flexible.</li>
             <li><strong>Mongoose </strong>- Mongoose is an ODM (object data modeling) library. It provides a model for data and is still flexible.</li>
-            <li><strong>React.js</strong>- React is Facebook's JavaScript Library. 
+            <li><strong>React.js</strong>- React is Facebook\'s JavaScript Library. 
             It will take everything you know about the HTML-CSS-JS architecture and flip it on its head. 
             It is especially useful for changing data that needs to be recorded on the front end, reuse components, and much more.</li>
             <li><strong>PHP (Personal Home Page or recursive for Hypertext Preprocessor) </strong>- PHP is a general-purpose scripting language. 
-            Like JavaScript, it can be used for both front-end and back-end applications. It's fast, open source, and easy to use.</li>
+            Like JavaScript, it can be used for both front-end and back-end applications. It\'s fast, open source, and easy to use.</li>
             <li><strong>Laravel </strong>- Laravel is a PHP Framework. It speeds up the time it takes to solve common tasks.</li>
             <li><strong>Computer Science Fundamentals </strong>- We spent some time learning big O, data types, different types of data searches and sorts.</li>
         </ul>
@@ -231,12 +232,13 @@
         <p>Here are some more links to help:</p>
         <ul>
             <li><a href="https://www.trilogyed.com/programs/" target="_blank" class="contentLinks">Trilogy Education Services - Programs Page</a></li>
-            <li><a href="https://techbootcamps.utexas.edu/" target="_blank" class="contentLinks">University of Texas at Austin's Tech Boot Camps</a></li>
+            <li><a href="https://techbootcamps.utexas.edu/" target="_blank" class="contentLinks">University of Texas at Austin\'s Tech Boot Camps</a></li>
             <li><a href="https://techbootcamps.utexas.edu/coding/" target="_blank" class="contentLinks">The specific boot camp I chose</a></li>
         </ul>
         <br>
         <h2 style="text-align: center; padding-bottom: 50px;"><i>Coming Soon:</i> Is A Coding Boot Camp Worth It? </h2>
-    </div>
+    </div>';
+    ?>
     <script src="https://cdn.jsdelivr.net/npm/lax.js"></script> 
 </body>
 </html>

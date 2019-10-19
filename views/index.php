@@ -40,8 +40,8 @@
 </head>
 
 <body>
-    <!-- Social -->
-    <div class="container social">
+<?php
+    echo '<div class="container social">
         <div class="git">
             <a class="gitA" href="https://github.com/wesleyberry" target="_blank">
                 <i class="fab fa-github-square"></i>
@@ -80,7 +80,7 @@
         <div class="intro lax" data-lax-translate-y="0 0, 400 -400">
             <h3 class="titleH3">Hello, my name is</h3>
             <h1 class="titleName">Wesley Berry.</h1>
-            <h2 class="titleProfession">I'm a <strong>full-stack</strong> web developer</h2>
+            <h2 class="titleProfession">I\'m a <strong>full-stack</strong> web developer</h2>
             <a href="#aboutMe" class="titleNav scrollNav">
                 <button class="titleButton">
                     Learn About Me <i class="fas fa-arrow-down"></i>
@@ -143,8 +143,8 @@
                 <div class="textForGig col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 order-lg-1">
                     <h4 class="projectTitle">Inoz Brew and Chew Company Website</h4>
                     <p class="descripText">This client-commissioned application is the company website for Inoz Brew and Chew.
-                        The client can use their credentials to log in to the admin page and manage the company's business hours, bar and food specials, and band schedule.
-                        All updated content is displayed on the website's public domain.
+                        The client can use their credentials to log in to the admin page and manage the company\'s business hours, bar and food specials, and band schedule.
+                        All updated content is displayed on the website\'s public domain.
                     </p>
                     <div class="row rowEmblems">
                         <div class="col-12">
@@ -243,7 +243,8 @@
         </div>
         <div class="footer-copyright text-center py-3">Designed and Developed by Wesley Berry
         </div>
-    </footer>
+    </footer>';
+    ?>
     <script src="https://cdn.jsdelivr.net/npm/lax.js" ></script>    
     <script src="assets/javascript/game.js"></script>
 </body>
