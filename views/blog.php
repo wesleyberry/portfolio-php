@@ -55,12 +55,20 @@
                 </li>
             </ul>
         </div>
-    </nav>
-    <!-- First Blog Post -->
-    <article class="container-fluid blogContainer gradient1" style="background-image: url(../assets/images/gradient_1.jpg);">
-        <a href="/blogs/coding_boot_camp_experience">
+    </nav>';
+    // First Blog Post
+    echo '<article class="container-fluid blogContainer gradient1" style="background-image: url(../assets/images/gradient_1.jpg);">
+        <a href="/blogs/coding_boot_camp_experience" class="mainNav">
             <h1>My Experience In A Coding Boot Camp</h1>
             <h2>A detailed recount of my experience attending Trilogy\'s Coding Boot Camp</h2>
+            <h3 style="padding-top: 40px;">10/21/2019</h3>
+        </a>
+    </article>';
+    echo '<article class="container-fluid blogContainer gradient1" style="background-image: url(../assets/images/gradient_2.jpg);">
+        <a href="/blogs/coding_boot_camp_worth_it" class="mainNav">
+            <h1>Is a Coding Boot Camp Worth It?</h1>
+            <h2>An in-depth analysis of Trilogy\'s Coding Boot Camp</h2>
+            <h3 style="padding-top: 40px;">10/21/2019</h3>
         </a>
     </article>';
     ?>
