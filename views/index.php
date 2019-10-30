@@ -94,7 +94,7 @@
         <div class="row">
             <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
                 <img src="assets/images/picofme2(2).jpg" class="forProfileImg"
-                    alt="You are missing out on a picture of me">
+                    alt="Image of Wesley Berry">
             </div>
             <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 aboutMeText">
                 <p>
@@ -137,7 +137,7 @@
             <div class="row projectRow">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 order-lg-2 center">
                     <a href="http://www.inozwimberley.com/" target="_blank" class="anchorImage">  
-                        <img src="./assets/images/Logo3.png" alt="Inoz Bar Section" class="gigBookImage">
+                        <img src="./assets/images/Logo3.png" alt="Inoz Brew and Chew" class="gigBookImage">
                     </a>
                 </div>
                 <div class="textForGig col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 order-lg-1">
@@ -164,7 +164,7 @@
             <div class="row projectRow">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 order-lg-2 center">
                     <a href="https://bellavidabandb.com/" target="_blank" class="anchorImage smallAnchor">  
-                        <img src="./assets/images/BellaVida_1.png" alt="BellaVida" class="gigBookImage bellaImage">
+                        <img src="./assets/images/BellaVida_1.png" alt="BellaVida Bed and Breakfast" class="gigBookImage bellaImage">
                     </a>
                 </div>
                 <div class="textForGig col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 order-lg-1">
