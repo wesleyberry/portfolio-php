@@ -43,34 +43,34 @@
 <?php
     echo '<div class="container social">
         <div class="git">
-            <a class="gitA" href="https://github.com/wesleyberry" target="_blank">
+            <a class="gitA" href="https://github.com/wesleyberry" target="_blank" ref="noopener">
                 <i class="fab fa-github-square"></i>
             </a>
         </div>
         <div class="linked">
-            <a class="linkedA" href="https://www.linkedin.com/in/wesley-berry-89742317a" target="_blank">
+            <a class="linkedA" href="https://www.linkedin.com/in/wesley-berry-89742317a" target="_blank" ref="noopener">
                 <i class="fab fa-linkedin"></i>
             </a>
         </div>
     </div>
     <div class="container emailCont">
         <div class="emailCont2">
-            <a href="mailto:wesleyberry52@gmail.com" class="emailA">wesleyberry52@gmail.com</a>
+            <a href="mailto:wesleyberry52@gmail.com" class="emailA" ref="noopener">wesleyberry52@gmail.com</a>
         </div>
     </div>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <a class="navbar-brand" href="/">Wesley Berry</a>
+        <a class="navbar-brand" href="/" ref="noopener">Wesley Berry</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="/">Home <span class="sr-only" ref="noopener">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/blogs">Blog</a>
+                    <a class="nav-link" href="/blogs" ref="noopener">Blog</a>
                 </li>
             </ul>
         </div>
@@ -81,7 +81,7 @@
             <h3 class="titleH3">Hello, my name is</h3>
             <h1 class="titleName">Wesley Berry.</h1>
             <h2 class="titleProfession">I\'m a <strong>full-stack</strong> web developer</h2>
-            <a href="#aboutMe" class="titleNav scrollNav">
+            <a href="#aboutMe" class="titleNav scrollNav" ref="noopener">
                 <button class="titleButton">
                     Learn About Me <i class="fas fa-arrow-down"></i>
                 </button>
@@ -93,7 +93,7 @@
         <h3 class="aboutMeHeader">About Me</h3>
         <div class="row">
             <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                <img src="assets/images/picofme2(2).jpg" class="forProfileImg"
+                <img src="assets/images/picofme.jpg" class="forProfileImg"
                     alt="Image of Wesley Berry">
             </div>
             <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 aboutMeText">
@@ -101,7 +101,8 @@
                     My name is Wesley Berry, and I am the owner and operator of Berry Development, a website development business. 
                     Working independently allows me to focus on achieving my professional goals uninhibited.
                     As a full-stack web developer, I create responsive, dynamic solutions and manage small teams. 
-                    I like what I do because it allows me to be artistic while helping others.
+                    I like what I do because it allows me to be artistic while helping others. 
+                    <a href="../assets/documents/Wesley_Berry_Resume_10_24_2019.pdf">Check out my resume here.</a>
                 </p>
             </div>
         </div>
@@ -136,7 +137,7 @@
             <!-- Inoz Brew and Chew -->
             <div class="row projectRow">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 order-lg-2 center">
-                    <a href="http://www.inozwimberley.com/" target="_blank" class="anchorImage">  
+                    <a href="http://www.inozwimberley.com/" target="_blank" class="anchorImage" ref="noopener">  
                         <img src="./assets/images/Logo3.png" alt="Inoz Brew and Chew" class="gigBookImage">
                     </a>
                 </div>
@@ -149,7 +150,7 @@
                     <div class="row rowEmblems">
                         <div class="col-12">
                             <a href="https://github.com/wesleyberry/Inoz_A_Website.git" target="_blank"
-                                class="emblems">
+                                class="emblems" ref="noopener">
                                 <i class="fab fa-github"></i>
                             </a>
                         </div>
@@ -163,7 +164,7 @@
             <!-- BellaVida -->
             <div class="row projectRow">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 order-lg-2 center">
-                    <a href="https://bellavidabandb.com/" target="_blank" class="anchorImage smallAnchor">  
+                    <a href="https://bellavidabandb.com/" target="_blank" class="anchorImage smallAnchor" ref="noopener">  
                         <img src="./assets/images/BellaVida_1.png" alt="BellaVida Bed and Breakfast" class="gigBookImage bellaImage">
                     </a>
                 </div>
@@ -186,7 +187,7 @@
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 order-lg-2  center">
                     <a href="https://gigbook-p3.herokuapp.com/" 
                         target="_blank" 
-                        class="anchorImage smallAnchor">  
+                        class="anchorImage smallAnchor" ref="noopener">  
                         <img src="./assets/images/Gigbook-Icon.png" 
                             alt="GigBook Landing Page" 
                             class="gigBookImage smallImage"
@@ -201,7 +202,7 @@
                     </p>
                     <div class="row rowEmblems">
                         <div class="col-2">
-                            <a href="https://github.com/Garredondo/GigBook.git" target="_blank" class="emblems">
+                            <a href="https://github.com/Garredondo/GigBook.git" target="_blank" class="emblems" ref="noopener">
                                 <i class="fab fa-github"></i>
                             </a>
                         </div>
@@ -219,7 +220,7 @@
         <h3 class="aboutMeHeader">Contact</h3>
         <div class="contactDiv">
             <h4 class="collaborate">Have a question or want to collaborate on a project?</h4>
-            <a href="mailto:wesleyberry52@gmail.com" class="titleNav hello">
+            <a href="mailto:wesleyberry52@gmail.com" class="titleNav hello" ref="noopener">
                 <button class="titleButton helloButton">
                     Say Hello
                 </button>
@@ -230,12 +231,12 @@
     <footer class="page-footer font-small darken-3">
         <div class="row">
             <div class="col-6 footerEmblems">
-                <a class="li-ic">
+                <a class="li-ic" ref="noopener" target="_blank" href="https://www.linkedin.com/in/wesley-berry-89742317a">
                     <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
                 </a>
             </div>
             <div class="col-6 footerEmblems">
-                <a class="li-ic">
+                <a class="li-ic" ref="noopener" target="_blank" href="https://github.com/wesleyberry">
                     <i class="fab fa-github fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
                 </a>
             </div>
