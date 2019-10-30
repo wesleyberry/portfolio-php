@@ -99,10 +99,9 @@
             <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 aboutMeText">
                 <p>
                     My name is Wesley Berry, and I am the owner and operator of Berry Development, a website development business. 
-                    Working independently allows me to focus on achieving my professional goals uninhibited.
-                    As a full-stack web developer, I create responsive, dynamic solutions and manage small teams. 
+                    As a full-stack web developer, I create responsive, dynamic websites and manage small teams. 
                     I like what I do because it allows me to be artistic while helping others. 
-                    <a href="../assets/documents/Wesley_Berry_Resume_10_24_2019.pdf">Check out my resume here.</a>
+                    <a id="resume" href="../assets/documents/Wesley_Berry_Resume_10_24_2019.pdf" rel="noopener" target="_blank">View my resume here.</a>
                 </p>
             </div>
         </div>

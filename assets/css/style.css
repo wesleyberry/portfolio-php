@@ -346,6 +346,13 @@ footer {
 body > footer > div.row{
     margin: 0 0 0 0;
 }
+#resume {
+    transition: 0.4s;
+}
+#resume:hover {
+    color: rgb(165, 165, 165) !important;
+    transition: 0.4s;
+}
 /*Extra small devices (phones) */
 @media (min-width: 300px) {
     /* ------------Projects---------- */
