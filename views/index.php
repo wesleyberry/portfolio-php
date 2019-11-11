@@ -130,7 +130,7 @@
     </div>
     <!-- Projects -->
     <div class="container3 container-fluid" id="myWork">
-        <h3 class="aboutMeHeader">Projects</h3>
+        <h3 class="aboutMeHeader">Applications</h3>
         <div class="projects">
             <!-- Inoz Brew and Chew -->
             <div class="row projectRow">
