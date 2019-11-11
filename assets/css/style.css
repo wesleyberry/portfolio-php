@@ -492,6 +492,9 @@ body > footer > div.row{
     .footerP2 {
         font-size: 20px;
     }
+    .navbar-brand {
+        padding-left: 5%;
+    }
 }
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
@@ -671,6 +674,9 @@ body > footer > div.row{
         padding-left: 12%;
         padding-right: 12%;
     }
+    .navbar-brand {
+        padding-left: 10%;
+    }
 }
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
@@ -738,6 +744,12 @@ body > footer > div.row{
         padding-left: 15px;
         padding-right: 0;
     }
+    .navbar-brand {
+        padding-left: 11% !important;
+    }
+    .navbar-nav, .ml-auto {
+        margin-right: 5% !important;
+    }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -797,5 +809,8 @@ body > footer > div.row{
     /* ------------Contact--------- */
     .helloButton {
         font-size: 50px;
+    }
+    .navbar-nav, .ml-auto {
+        margin-right: 8% !important;
     }
 } 

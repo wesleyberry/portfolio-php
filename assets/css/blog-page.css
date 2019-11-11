@@ -94,3 +94,33 @@ body > nav > a {
 .blogContainer {
     padding: 5% 17%;
 }
+@media (min-width: 576px) {
+    .navbar-brand {
+        padding-left: 5%;
+    }
+}
+@media (min-width: 768px) {
+    .navbar-brand {
+        padding-left: 10%;
+    }
+}
+@media (min-width: 992px) {
+    .nav-item {
+        padding-right: 80px !important;
+    }
+    .navbar-brand {
+        padding-left: 11% !important;
+    }
+    .navbar-nav, .ml-auto {
+        margin-right: 5% !important;
+    }
+}
+@media (min-width: 1200px) {
+    .navbar-brand {
+        padding-left: 80px;
+        margin: 0;
+    }
+    .navbar-nav, .ml-auto {
+        margin-right: 8% !important;
+    }
+}

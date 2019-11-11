@@ -16,6 +16,12 @@ body {
     font-size: 30px !important;
     font-weight: 700 !important;
 }
+@media (min-width: 576px) {
+    
+}
+@media (min-width: 768px) {
+
+}
 @media (min-width: 992px) {
     .navbar-brand {
         padding-left: 80px;
@@ -23,5 +29,11 @@ body {
     }
     .nav-item {
         padding-right: 80px
+    }
+}
+@media (min-width: 1200px) {
+    .navbar-brand {
+        padding-left: 80px;
+        margin: 0;
     }
 }
