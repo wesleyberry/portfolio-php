@@ -180,6 +180,32 @@
                     </div>
                 </div>
             </div>
+            <!-- Squirrel Whisperers -->
+            <div class="row projectRow">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 order-lg-2 center">
+                    <a href="https://pure-brook-92293.herokuapp.com/" target="_blank" class="anchorImage smallAnchor" ref="noopener">  
+                        <img src="./assets/images/Squirrel_Whisperers_portfolio.png" alt="Squirrel Whisperers" class="gigBookImage squirrelImage">
+                    </a>
+                </div>
+                <div class="textForGig col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 order-lg-1">
+                    <h4 class="projectTitle">Squirrel Whisperers Band Page</h4>
+                    <p class="descripText">
+                    This application is the website for a bluegrass band called Squirrel Whisperers.
+                    The website has the front-end for a store. Users can view merchandise and add them to a cart. There is an opportunity for API requests, end points, a database, and a payment portal to be added to make this a complete full-stack application.
+                    </p>
+                    <div class="row rowEmblems">
+                        <div class="col-2">
+                            <a href="https://github.com/wesleyberry/hid-exercise.git" target="_blank" class="emblems" ref="noopener">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="techUsed">
+                        <p class="techUsedText">Front-End: React - Node.js/Express.js - spotify-web-api (node and js)</p>
+                        <p class="techUsedText">Graphics: GIMP - Canva</p>
+                    </div>
+                </div>
+            </div>
             <!-- GigBook -->
             <div class="row projectRow">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 order-lg-2  center">
