@@ -57,26 +57,25 @@
         <div class="emailCont2">
             <a href="mailto:wesleyberry52@gmail.com" class="emailA" ref="noopener">wesleyberry52@gmail.com</a>
         </div>
-    </div>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <a class="navbar-brand" href="/" ref="noopener">Wesley Berry</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="/">Home <span class="sr-only" ref="noopener">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/blogs" ref="noopener">Blog</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <!-- Landing Page -->
-    <div class="container1">
+    </div>';
+    // <!-- Navbar -->
+    // <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    //     <a class="navbar-brand" href="/" ref="noopener">Wesley Berry</a>
+    //     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    //         <span class="navbar-toggler-icon"></span>
+    //     </button>
+    //     <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    //         <ul class="navbar-nav ml-auto">
+    //             <li class="nav-item active">
+    //                 <a class="nav-link" href="/">Home <span class="sr-only" ref="noopener">(current)</span></a>
+    //             </li>
+    //             <li class="nav-item">
+    //                 <a class="nav-link" href="/blogs" ref="noopener">Blog</a>
+    //             </li>
+    //         </ul>
+    //     </div>
+    // </nav>
+    echo '<div class="container1">
         <div class="intro lax" data-lax-translate-y="0 0, 400 -400">
             <h3 class="titleH3">Hello, my name is</h3>
             <h1 class="titleName">Wesley Berry.</h1>
