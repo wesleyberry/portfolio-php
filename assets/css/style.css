@@ -248,10 +248,10 @@ a:-webkit-any-link {
 }
 .descripText {
     color: rgb(182, 182, 182);
-    text-align: center;
+    text-align: left;
 }
 .techUsed {
-    text-align: center;
+    text-align: left;
 }
 .techUsedText {
     color: rgb(255, 255, 255);
