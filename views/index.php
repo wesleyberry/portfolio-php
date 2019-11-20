@@ -135,6 +135,33 @@
             <!-- Inoz Brew and Chew -->
             <div class="row projectRow">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 order-lg-2 center">
+                    <a href="http://www.windmillranch.co/" target="_blank" class="anchorImage" rel="noopener" aria-label="WMR GitHub">  
+                        <img src="./assets/images/Logo_first.png" alt="Windmill Ranch Lodging" class="gigBookImage" id="wmr-image">
+                    </a>
+                </div>
+                <div class="textForGig col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 order-lg-1">
+                    <h4 class="projectTitle">Windmill Ranch Lodging Company Website</h4>
+                    <p class="descripText">This client-commissioned application is the company website for Windmill Ranch Lodging.
+                        The client can use their credentials to log in to the admin page and manage events.
+                        All updated content is displayed on the website\'s public domain.
+                    </p>
+                    <div class="row rowEmblems">
+                        <div class="col-12">
+                            <a href="https://github.com/wesleyberry/windmill_ranch.git" target="_blank" aria-label="Windmill Ranch Website"
+                                class="emblems" rel="noopener" alt="GitHub - Windmill Ranch">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="techUsed">
+                        <p class="techUsedText">Front-end: HTML/CSS - JavaScript/jQuery - Google Maps API</p>
+                        <p class="techUsedText">Back-end: Node.js/Express.js - Sequelize/SQL - Passport - Bcrypt - RESTful API - NodeMailer</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Inoz Brew and Chew -->
+            <div class="row projectRow">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 order-lg-2 center">
                     <a href="http://www.inozwimberley.com/" target="_blank" class="anchorImage" rel="noopener" aria-label="Inoz GitHub">  
                         <img src="./assets/images/Logo3.png" alt="Inoz Brew and Chew" class="gigBookImage">
                     </a>
@@ -184,7 +211,7 @@
             <div class="row projectRow">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 order-lg-2 center">
                     <a href="https://pure-brook-92293.herokuapp.com/" target="_blank" class="anchorImage smallAnchor" rel="noopener" aria-label="hid-exercise GitHub">  
-                        <img src="./assets/images/Squirrel_Whisperers_portfolio.png" alt="Squirrel Whisperers" class="gigBookImage squirrelImage">
+                        <img src="./assets/images/Squirrel_Whisperers_portfolio.png" alt="Squirrel Whisperers" id="sw-image" class="gigBookImage squirrelImage">
                     </a>
                 </div>
                 <div class="textForGig col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 order-lg-1">

@@ -175,9 +175,6 @@ a:-webkit-any-link {
     background-color: #1F2614;
     opacity: .98;
 }
-.container2 {
-    min-height: 100vh;
-}
 .forProfileImg {
     display: block;
     margin-left: auto;
@@ -371,6 +368,7 @@ body > footer > div.row{
     .anchorImage {
         display:inline-block;
         overflow: hidden;
+        margin: 20px 0 20px 0;
     }
     .gigBookImage:hover {
         transform: scale(1.1);
@@ -749,6 +747,14 @@ body > footer > div.row{
     }
     .navbar-nav, .ml-auto {
         margin-right: 5% !important;
+    }
+    #wmr-image {
+        margin: 0 15% 0 15%;
+        width: 70%;
+    }
+    #sw-image {
+        margin: 0 15% 0 15%;
+        width: 70%;
     }
 }
 
