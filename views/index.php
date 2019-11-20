@@ -156,6 +156,7 @@
                     <div class="techUsed">
                         <p class="techUsedText">Front-end: HTML/CSS - JavaScript/jQuery - Google Maps API</p>
                         <p class="techUsedText">Back-end: Node.js/Express.js - Sequelize/SQL - Passport - Bcrypt - RESTful API - NodeMailer</p>
+                        <p class="techUsedText">Graphics: GIMP - Canva</p>
                     </div>
                 </div>
             </div>
