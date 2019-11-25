@@ -234,39 +234,6 @@
                     </div>
                 </div>
             </div>
-            <!-- GigBook -->
-            <div class="row projectRow">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 order-lg-2  center">
-                    <a href="https://gigbook-p3.herokuapp.com/" 
-                        target="_blank" 
-                        class="anchorImage smallAnchor" 
-                        rel="noopener"
-                        aria-label="GigBook GitHub">  
-                        <img src="./assets/images/Gigbook-Icon.png" 
-                            alt="GigBook Landing Page" 
-                            class="gigBookImage smallImage"
-                        >
-                    </a>
-                </div>
-                <div class="textForGig col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 order-lg-1">
-                    <h4 class="projectTitle">GigBook</h4>
-                    <p class="descripText">GigBook is a full-stack web application that allows musicians and venues to connect on one,
-                        easy-to-use hub.
-                        Use the following test credentials to login: Username-sally, Password-1, Artist-Checked
-                    </p>
-                    <div class="row rowEmblems">
-                        <div class="col-2">
-                            <a href="https://github.com/Garredondo/GigBook.git" target="_blank" class="emblems" rel="noopener" alt="GitHub - GigBook" aria-label="GigBook Website">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="techUsed">
-                        <p class="techUsedText">Front-end: React.js - JavaScript - HTML/CSS</p>
-                        <p class="techUsedText">Back-end: Node.js/Express.js - Sequelize/SQL - Passport - Bcrypt</p>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
     <!-- Contact -->
