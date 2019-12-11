@@ -82,7 +82,7 @@
             <h2 class="titleProfession">I\'m a <strong>full-stack</strong> web developer</h2>
             <a href="#aboutMe" class="titleNav scrollNav" rel="noopener" aria-label="To About Section">
                 <button class="titleButton">
-                    Learn About Me <i class="fas fa-arrow-down"></i>
+                    Learn About Me
                 </button>
             </a>
         </div>
