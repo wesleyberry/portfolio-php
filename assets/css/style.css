@@ -22,7 +22,7 @@ html {
     margin-left: 0;
 }
 p {
-    color: rgb(212, 212, 212);
+    color: #1F2614;
     font-family: 'Roboto', sans-serif;
 }
 a {
@@ -39,7 +39,7 @@ ul {
     list-style-type: square;
 }
 li {
-    color: rgb(192, 192, 192);
+    color: #1F2614;
     font-family: 'Roboto', sans-serif;
 }
 button {
@@ -172,8 +172,7 @@ a:-webkit-any-link {
     padding-right: 7%;
     padding-top: 7%;
     width: auto;
-    background-color: #1F2614;
-    opacity: .98;
+    background-color: rgb(233, 233, 233);
 }
 .forProfileImg {
     display: block;
@@ -186,7 +185,7 @@ a:-webkit-any-link {
 .aboutMeHeader {
     overflow: hidden;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(18, 22, 12);
 }
 .aboutMeHeader:before,
 .aboutMeHeader:after {
@@ -252,7 +251,7 @@ a:-webkit-any-link {
 }
 .techUsedText {
     color: rgb(255, 255, 255);
-    font-weight: 600;
+    font-weight: 500;
 }
 .fab.fa-linkedin-in,
 .fab.fa-github,
@@ -290,7 +289,7 @@ a:-webkit-any-link {
     padding-top: 7%;
     margin-right: 0;
     margin-left: 0;
-    background-color: #1F2614;
+    background-color: rgb(233, 233, 233);
     opacity: .98;
     margin-top: 50px;
 }
@@ -301,7 +300,7 @@ a:-webkit-any-link {
 }
 .collaborate {
     margin-top: 20vh;
-    color: rgb(248, 248, 248);
+    color: #1F2614;
     font-size: 40px;
 }
 .helloButton {
@@ -375,13 +374,19 @@ body > footer > div.row{
         transition: .4s;
     }
     .textForGig {
-        background-color: hsl(0, 0%, 0%, .75);
+        background-color: rgb(29, 36, 20);
         padding: 2%;
     }
     .projectTitle {
         margin-bottom: 20px;
         font-size: 30px;
-        color: rgb(253, 253, 253);
+        color: rgb(247, 247, 247);
+        text-align: center;
+    }
+    .skillsTitle {
+        margin-bottom: 20px;
+        font-size: 30px;
+        color: rgb(18, 22, 12);
         text-align: center;
     }
     #myWork > div > div:nth-child(1) > div.col-xs-12.col-sm-12.col-md-12.col-lg-8.col-xl-8.order-lg-2.center2,

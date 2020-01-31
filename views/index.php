@@ -105,7 +105,7 @@
             </div>
         </div>
         <div class="row experience">
-            <h4 class="col-12 projectTitle">Here are a few things I have experience with:</h4>
+            <h4 class="col-12 skillsTitle">Here are a few things I have experience with:</h4>
             <div class="skills col-6">
                 <ul>
                     <li>JavaScript & jQuery</li>
@@ -205,32 +205,6 @@
                     </p>
                     <div class="techUsed">
                         <p class="techUsedText">PHP - HTML - CSS - JavaScript - WordPress</p>
-                    </div>
-                </div>
-            </div>
-            <!-- Squirrel Whisperers -->
-            <div class="row projectRow">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 order-lg-2 center">
-                    <a href="https://pure-brook-92293.herokuapp.com/" target="_blank" class="anchorImage smallAnchor" rel="noopener" aria-label="hid-exercise GitHub">  
-                        <img src="./assets/images/Squirrel_Whisperers_portfolio.png" alt="Squirrel Whisperers" id="sw-image" class="gigBookImage squirrelImage">
-                    </a>
-                </div>
-                <div class="textForGig col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 order-lg-1">
-                    <h4 class="projectTitle">Squirrel Whisperers Band Page</h4>
-                    <p class="descripText">
-                    This application is the website for a bluegrass band called Squirrel Whisperers.
-                    The website has the front-end for a store. Users can view merchandise and add them to a cart. There is an opportunity for API requests, end points, a database, and a payment portal to be added to make this a complete full-stack application.
-                    </p>
-                    <div class="row rowEmblems">
-                        <div class="col-2">
-                            <a href="https://github.com/wesleyberry/hid-exercise.git" target="_blank" class="emblems" rel="noopener" alt="GitHub - hid-exercise" aria-label="hid-exercise website">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="techUsed">
-                        <p class="techUsedText">Front-End: React - Node.js/Express.js - spotify-web-api (node and js)</p>
-                        <p class="techUsedText">Graphics: GIMP - Canva</p>
                     </div>
                 </div>
             </div>
