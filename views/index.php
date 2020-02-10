@@ -201,7 +201,7 @@
                     I worked as a full-stack developer on a small team to plan, develop, test, and deploy the website. Also, I  facilitated communication between the client and developers.
                     </p>
                     <p class="descripText">
-                        There is no public GitHub repository for this application as per request of the owner.
+                        There is no public GitHub repository for this application.
                     </p>
                     <div class="techUsed">
                         <p class="techUsedText">PHP - HTML - CSS - JavaScript - WordPress</p>
