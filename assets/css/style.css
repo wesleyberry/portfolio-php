@@ -800,6 +800,9 @@ body > footer > div.row{
         height: auto;
         max-height: none;
     }
+    .BACImage {
+        width: 80%;
+    }
     .textForGig {
         height: auto;
     }

@@ -208,6 +208,32 @@
                     </div>
                 </div>
             </div>
+            <!-- Berry Auto Center -->
+            <div class="row projectRow">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 order-lg-2 center">
+                    <a href="https://wesleyberry.github.io/dealership/" target="_blank" class="anchorImage smallAnchor" rel="noopener" aria-label="Berry Auto Center Website">  
+                        <img src="./assets/images/Berry_auto_center_logo_cropped.png" alt="Berry Auto Center" class="gigBookImage BACImage">
+                    </a>
+                </div>
+                <div class="textForGig col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 order-lg-1">
+                    <h4 class="projectTitle">Berry Auto Center</h4>
+                    <p class="descripText">
+                    This application is the company website for a fictitious dealership titled Berry Auto Center. 
+                    The purpose of this application is to showcase my capabilities with CSS grid, UI design, and responsiveness.
+                    </p>
+                    <div class="row rowEmblems">
+                        <div class="col-12">
+                            <a href="https://github.com/wesleyberry/dealership" target="_blank" aria-label="Berry Auto Center Git"
+                                class="emblems" rel="noopener" alt="GitHub - Berry Auto Center">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="techUsed">
+                        <p class="techUsedText">HTML - CSS(grid)</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <!-- Contact -->
